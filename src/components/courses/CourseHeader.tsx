@@ -9,6 +9,8 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 const CourseHeader = ({
   course,
@@ -95,9 +97,12 @@ const CourseHeader = ({
                       Continue Learning
                     </button>
                   ) : (
-                    <button className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-primary-clr border border-transparent rounded-md shadow-sm hover:bg-primary-clr/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                      Enroll Now
-                    </button>
+                    <Button
+                      className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-primary-clr border border-transparent rounded-md shadow-sm hover:bg-primary-clr/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 cursor-pointer"
+                      asChild
+                    >
+                      <Link href={`/courses/survey`}>Enroll Now</Link>
+                    </Button>
                   )}
                   <div className="mt-4">
                     <h3 className="text-sm font-medium text-gray-900">

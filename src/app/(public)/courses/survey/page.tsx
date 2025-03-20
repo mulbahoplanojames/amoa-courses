@@ -159,7 +159,7 @@ export default function SurveyPage() {
   const progress = ((currentStep + 1) / steps.length) * 100;
 
   return (
-    <div className="container mx-auto px-4 pb-12 pt-32 ">
+    <div className="container mx-auto px-4 pb-12 pt-10">
       <div className="max-w-3xl mx-auto">
         <div className="mb-10 text-center">
           <h1 className="text-4xl font-bold mb-4">Course Interest Survey</h1>
