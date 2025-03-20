@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
-import { Home, Info, BookOpen, FileQuestion, Menu } from "lucide-react";
+import { Home, Info, BookOpen, FileQuestion, Menu, X } from "lucide-react";
 // import { AppInitializer } from "@/components/app-initializer";
 
 export function Navbar() {
@@ -45,9 +45,9 @@ export function Navbar() {
       {/* Include the AppInitializer here as well for redundancy */}
       {/* <AppInitializer /> */}
 
-      <header className="flex items-center justify-between sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60  md:px-16 px-2 md:py-3 py-4">
+      <header className="flex items-center justify-between sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60  md:px-16 px-4 md:py-3 py-4">
         <Link href="/" className="flex items-center space-x-2 mr-6">
-          <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-foreground bg-clip-text text-transparent">
+          <span className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-clr bg-clip-text text-transparent">
             Amoa
           </span>
         </Link>
@@ -85,13 +85,15 @@ export function Navbar() {
           {/* Mobile Navigation */}
 
           <div className="md:hidden flex flex-1 justify-end">
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            >
-              <Menu className="h-8 w-8" />
-            </Button>
+            {isMobileMenuOpen ? (
+              <button onClick={() => setIsMobileMenuOpen(false)}>
+                <X className="h-8 w-8 font-bold text-primary-clr" />
+              </button>
+            ) : (
+              <button onClick={() => setIsMobileMenuOpen(true)}>
+                <Menu className="h-8 w-8 text-primary-clr" />
+              </button>
+            )}
             {isMobileMenuOpen && (
               <div className="absolute top-16 left-0 right-0 bg-background border-b p-4 shadow-lg">
                 <nav className="flex flex-col space-y-4">
