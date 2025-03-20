@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "title": "Python for Beginners",
+    "description": "Learn Python from scratch, covering basic syntax, data structures, and foundational programming concepts. Perfect for those new to coding.",
+    "image": "https://images.unsplash.com/photo-1581091870621-2fb53aee1d54?auto=format&fit=crop&w=2070&q=80",
+    "category": "Programming",
+    "level": "Beginner",
+    "duration": "6 weeks",
+    "totalHours": 25,
+    "students": 2340,
+    "rating": 4.9,
+    "reviewCount": 410,
+    "instructor": {
+      "name": "Sarah Johnson",
+      "title": "Data Scientist & Python Developer",
+      "bio": "Sarah has over 10 years of experience in Python programming and has worked at top tech companies.",
+      "avatar": null
+    },
+    "price": "Free",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to Python",
+        "description": "Understand Python basics and setup your environment",
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Why Learn Python?",
+            "type": "video",
+            "duration": "10 min",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "title": "Installing Python",
+            "type": "text",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 3,
+            "title": "Writing Your First Python Program",
+            "type": "interactive",
+            "duration": "30 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Python Basics Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
+      }
+    ],
+    "prerequisites": [
+      "Basic computer knowledge",
+      "No prior programming experience required"
+    ],
+    "whatYouWillLearn": [
+      "Understand Python syntax",
+      "Write basic Python programs",
+      "Work with data types and structures"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Web Development with HTML & CSS",
+    "description": "Master HTML and CSS to create stunning, responsive websites. Learn how to structure web pages and apply styles.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=2070&q=80",
+    "category": "Web Development",
+    "level": "Beginner",
+    "duration": "5 weeks",
+    "totalHours": 22,
+    "students": 1890,
+    "rating": 4.7,
+    "reviewCount": 305,
+    "instructor": {
+      "name": "David Lee",
+      "title": "Front-End Developer",
+      "bio": "David specializes in front-end technologies and has worked with various startups to build stunning websites.",
+      "avatar": null
+    },
+    "price": "Free",
+    "modules": [
+      {
+        "id": 1,
+        "title": "HTML Basics",
+        "description": "Learn the foundation of web pages with HTML.",
+        "duration": "2 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Introduction to HTML",
+            "type": "video",
+            "duration": "10 min",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "title": "Basic HTML Elements",
+            "type": "text",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 3,
+            "title": "Building Your First Webpage",
+            "type": "interactive",
+            "duration": "30 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "HTML & CSS Basics Quiz",
+        "questions": 12,
+        "duration": "20 minutes"
+      }
+    ],
+    "prerequisites": ["Basic computer knowledge"],
+    "whatYouWillLearn": [
+      "Create web pages using HTML",
+      "Apply styles using CSS",
+      "Build responsive layouts"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "React.js for Frontend Developers",
+    "description": "Learn how to build modern web applications using React.js. Covers components, state management, and hooks.",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2070&q=80",
+    "category": "Web Development",
+    "level": "Intermediate",
+    "duration": "6 weeks",
+    "totalHours": 30,
+    "students": 1567,
+    "rating": 4.8,
+    "reviewCount": 275,
+    "instructor": {
+      "name": "Michael Roberts",
+      "title": "Full-Stack Developer",
+      "bio": "Michael has extensive experience in building scalable applications using React and Node.js.",
+      "avatar": null
+    },
+    "price": "$49",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to React.js",
+        "description": "Understand the fundamentals of React.",
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Why Use React?",
+            "type": "video",
+            "duration": "15 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Machine Learning with Python",
+    "description": "Dive into machine learning concepts, algorithms, and real-world applications using Python.",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=2070&q=80",
+    "category": "Data Science",
+    "level": "Advanced",
+    "duration": "8 weeks",
+    "totalHours": 40,
+    "students": 1123,
+    "rating": 4.9,
+    "reviewCount": 320,
+    "instructor": {
+      "name": "Alice Kim",
+      "title": "AI Engineer",
+      "bio": "Alice has worked on AI projects in the healthcare and finance sectors, bringing real-world expertise to the course.",
+      "avatar": null
+    },
+    "price": "$99",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Machine Learning Basics",
+        "description": "Learn core ML concepts and algorithms.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Introduction to Machine Learning",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cybersecurity Essentials",
+    "description": "Learn the fundamentals of cybersecurity, including threat detection, network security, and encryption techniques.",
+    "image": "https://images.unsplash.com/photo-1559757175-5703de16c13b?auto=format&fit=crop&w=2070&q=80",
+    "category": "Security",
+    "level": "Beginner",
+    "duration": "5 weeks",
+    "totalHours": 28,
+    "students": 1450,
+    "rating": 4.7,
+    "reviewCount": 290,
+    "instructor": {
+      "name": "Emily Carter",
+      "title": "Cybersecurity Analyst",
+      "bio": "Emily has over a decade of experience in cybersecurity, specializing in ethical hacking and data protection.",
+      "avatar": null
+    },
+    "price": "$59",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to Cybersecurity",
+        "description": "Understand the basics of cybersecurity and common threats.",
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Cybersecurity Threats",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Data Science with R",
+    "description": "Explore data science concepts, visualization techniques, and predictive modeling using the R programming language.",
+    "image": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?auto=format&fit=crop&w=2070&q=80",
+    "category": "Data Science",
+    "level": "Intermediate",
+    "duration": "7 weeks",
+    "totalHours": 35,
+    "students": 980,
+    "rating": 4.8,
+    "reviewCount": 230,
+    "instructor": {
+      "name": "Robert Simmons",
+      "title": "Data Scientist",
+      "bio": "Robert has worked on large-scale data projects and is passionate about teaching data science with R.",
+      "avatar": null
+    },
+    "price": "$79",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to R for Data Science",
+        "description": "Learn the basics of R and data manipulation.",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Installing and Setting up R",
+            "type": "video",
+            "duration": "15 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Cloud Computing with AWS",
+    "description": "Master the fundamentals of cloud computing and learn how to deploy applications using Amazon Web Services (AWS).",
+    "image": "https://images.unsplash.com/photo-1502937406922-305bb2789e95?auto=format&fit=crop&w=2070&q=80",
+    "category": "Cloud Computing",
+    "level": "Advanced",
+    "duration": "8 weeks",
+    "totalHours": 40,
+    "students": 1225,
+    "rating": 4.9,
+    "reviewCount": 315,
+    "instructor": {
+      "name": "James Nguyen",
+      "title": "Cloud Architect",
+      "bio": "James has extensive experience in cloud solutions and has worked with multiple Fortune 500 companies.",
+      "avatar": null
+    },
+    "price": "$99",
+    "modules": [
+      {
+        "id": 1,
+        "title": "AWS Fundamentals",
+        "description": "Introduction to AWS services and cloud infrastructure.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Overview of AWS Services",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Game Development with Unity",
+    "description": "Learn how to create 2D and 3D games using the Unity engine. Covers game physics, animations, and scripting.",
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=2070&q=80",
+    "category": "Game Development",
+    "level": "Intermediate",
+    "duration": "6 weeks",
+    "totalHours": 32,
+    "students": 1870,
+    "rating": 4.8,
+    "reviewCount": 280,
+    "instructor": {
+      "name": "Sophia Martinez",
+      "title": "Game Developer",
+      "bio": "Sophia has developed several indie games and teaches game design and development.",
+      "avatar": null
+    },
+    "price": "$89",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Getting Started with Unity",
+        "description": "Introduction to Unity’s interface and features.",
+        "duration": "3.5 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Installing Unity and Setting Up Your First Project",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Mobile App Development with Flutter",
+    "description": "Build cross-platform mobile applications using Flutter and Dart. Learn how to create user-friendly and performant apps.",
+    "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=2070&q=80",
+    "category": "Mobile Development",
+    "level": "Intermediate",
+    "duration": "7 weeks",
+    "totalHours": 36,
+    "students": 1432,
+    "rating": 4.7,
+    "reviewCount": 250,
+    "instructor": {
+      "name": "Daniel Wilson",
+      "title": "Mobile App Developer",
+      "bio": "Daniel has worked on several successful mobile applications and specializes in Flutter development.",
+      "avatar": null
+    },
+    "price": "$79",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Introduction to Flutter",
+        "description": "Learn the basics of Flutter and Dart programming.",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Why Use Flutter?",
+            "type": "video",
+            "duration": "15 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,4 +1,25 @@
-import React from "react";
+const values = [
+  {
+    title: "Excellence",
+    description:
+      "We strive for excellence in all our content, ensuring accuracy, relevance, and quality.",
+  },
+  {
+    title: "Innovation",
+    description:
+      "We continuously explore new ways to make learning more engaging and effective.",
+  },
+  {
+    title: "Inclusivity",
+    description:
+      "We design our platform to be accessible and welcoming to learners of all backgrounds.",
+  },
+  {
+    title: "Integrity",
+    description:
+      "We maintain the highest standards of honesty and ethical conduct in all our operations.",
+  },
+];
 
 const OurValues = () => {
   return (
@@ -13,28 +34,7 @@ const OurValues = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                title: "Excellence",
-                description:
-                  "We strive for excellence in all our content, ensuring accuracy, relevance, and quality.",
-              },
-              {
-                title: "Innovation",
-                description:
-                  "We continuously explore new ways to make learning more engaging and effective.",
-              },
-              {
-                title: "Inclusivity",
-                description:
-                  "We design our platform to be accessible and welcoming to learners of all backgrounds.",
-              },
-              {
-                title: "Integrity",
-                description:
-                  "We maintain the highest standards of honesty and ethical conduct in all our operations.",
-              },
-            ].map((value, index) => (
+            {values.map((value, index) => (
               <div
                 key={index}
                 className="flex gap-4 p-6 bg-muted/20 rounded-lg"
