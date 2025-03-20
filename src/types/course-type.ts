@@ -2,9 +2,10 @@ export type Course = {
   id: number;
   title: string;
   description: string;
+  startDate: string;
   image: string;
   category: string;
-  level: "Beginner" | "Intermediate" | "Advanced";
+  level: string;
   duration: string;
   totalHours: number;
   students: number;
@@ -18,6 +19,7 @@ export type Course = {
   };
   price: string;
   modules: Module[];
+  quizzes: Quiz[];
 };
 
 type Module = {
@@ -31,7 +33,15 @@ type Module = {
 type Lesson = {
   id: number;
   title: string;
-  type: "video" | "article" | "quiz";
+  // type: "video" | "article" | "quiz";
+  type: string;
   duration: string;
   isCompleted: boolean;
+};
+
+export type Quiz = {
+  id: number;
+  title: string;
+  questions: number;
+  duration: string;
 };

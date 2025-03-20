@@ -1,49 +1,397 @@
 [
   {
     "id": 1,
-    "title": "Python for Beginners",
-    "description": "Learn Python from scratch, covering basic syntax, data structures, and foundational programming concepts. Perfect for those new to coding.",
-    "image": "https://images.unsplash.com/photo-1581091870621-2fb53aee1d54?auto=format&fit=crop&w=2070&q=80",
+    "title": "JavaScript Fundamentals",
+    "slug": "javascript-fundamentals",
+    "description": "Learn the core concepts of JavaScript programming language, from basic syntax to advanced features. This course is designed for beginners who want to build a solid foundation in JavaScript programming.",
+    "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "category": "Programming",
+    "startDate": "April 5, 2024",
     "level": "Beginner",
-    "duration": "6 weeks",
-    "totalHours": 25,
-    "students": 2340,
-    "rating": 4.9,
-    "reviewCount": 410,
+    "duration": "4 weeks",
+    "totalHours": 20,
+    "students": 1245,
+    "rating": 4.8,
+    "reviewCount": 325,
     "instructor": {
-      "name": "Sarah Johnson",
-      "title": "Data Scientist & Python Developer",
-      "bio": "Sarah has over 10 years of experience in Python programming and has worked at top tech companies.",
+      "name": "John Doe",
+      "title": "Senior JavaScript Developer",
+      "bio": "John has been teaching JavaScript for over 8 years and has worked with companies like Google and Facebook.",
       "avatar": null
     },
     "price": "Free",
     "modules": [
       {
         "id": 1,
-        "title": "Introduction to Python",
-        "description": "Understand Python basics and setup your environment",
-        "duration": "3 hours",
+        "title": "Introduction to JavaScript",
+        "description": "Learn about the history and basics of JavaScript",
+        "duration": "2 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "Why Learn Python?",
+            "title": "What is JavaScript?",
             "type": "video",
             "duration": "10 min",
-            "isCompleted": false
+            "isCompleted": true
           },
           {
             "id": 2,
-            "title": "Installing Python",
+            "title": "Setting Up Your Development Environment",
+            "type": "text",
+            "duration": "15 min",
+            "isCompleted": true
+          },
+          {
+            "id": 3,
+            "title": "Your First JavaScript Program",
+            "type": "interactive",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "JavaScript Syntax",
+        "description": "Understand the basic syntax and structure of JavaScript",
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Variables and Data Types",
+            "type": "video",
+            "duration": "15 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Operators",
             "type": "text",
             "duration": "20 min",
             "isCompleted": false
           },
           {
-            "id": 3,
-            "title": "Writing Your First Python Program",
+            "id": 6,
+            "title": "Control Flow: Conditionals",
+            "type": "interactive",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 7,
+            "title": "Control Flow: Loops",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Functions and Objects",
+        "description": "Learn about functions, scope, and objects in JavaScript",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 8,
+            "title": "Function Declarations and Expressions",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 9,
+            "title": "Function Parameters and Return Values",
+            "type": "text",
+            "duration": "15 min",
+            "isCompleted": false
+          },
+          {
+            "id": 10,
+            "title": "Scope and Closures",
             "type": "interactive",
             "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 11,
+            "title": "Objects and Properties",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 12,
+            "title": "Object Methods",
+            "type": "interactive",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "DOM Manipulation",
+        "description": "Learn how to interact with HTML using JavaScript",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 13,
+            "title": "Introduction to the DOM",
+            "type": "video",
+            "duration": "15 min",
+            "isCompleted": false
+          },
+          {
+            "id": 14,
+            "title": "Selecting DOM Elements",
+            "type": "text",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 15,
+            "title": "Modifying DOM Elements",
+            "type": "interactive",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 16,
+            "title": "Event Handling",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 17,
+            "title": "Building a Simple App",
+            "type": "project",
+            "duration": "2 hours",
+            "isCompleted": false
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "JavaScript Basics Quiz",
+        "questions": 15,
+        "duration": "20 minutes"
+      },
+      {
+        "id": 2,
+        "title": "Functions and Objects Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
+      },
+      {
+        "id": 3,
+        "title": "DOM Manipulation Quiz",
+        "questions": 12,
+        "duration": "18 minutes"
+      }
+    ],
+    "prerequisites": [
+      "Basic HTML and CSS knowledge",
+      "No prior programming experience required",
+      "A computer with internet access"
+    ],
+    "whatYouWillLearn": [
+      "Understand JavaScript syntax and basic programming concepts",
+      "Create interactive web pages using JavaScript",
+      "Work with variables, data types, functions, and objects",
+      "Manipulate the DOM to update HTML content dynamically",
+      "Handle user events and create responsive interfaces",
+      "Debug JavaScript code effectively"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Advanced Web Development",
+    "slug": "advanced-web-development",
+    "description": "Master modern web development techniques including server-side rendering, API development, and performance optimization. Learn to build scalable applications using cutting-edge technologies.",
+    "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80",
+    "category": "Web Development",
+    "startDate": "April 12, 2024",
+    "level": "Advanced",
+    "duration": "6 weeks",
+    "totalHours": 35,
+    "students": 890,
+    "rating": 4.7,
+    "reviewCount": 210,
+    "instructor": {
+      "name": "Sarah Johnson",
+      "title": "Full-Stack Architect",
+      "bio": "Sarah has 10+ years experience building enterprise applications for Fortune 500 companies.",
+      "avatar": null
+    },
+    "price": "$49.99",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Modern Web Architecture",
+        "description": "Understanding microservices and cloud-native development",
+        "duration": "3 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Microservices Fundamentals",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "title": "Containerization with Docker",
+            "type": "interactive",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 3,
+            "title": "Kubernetes Basics",
+            "type": "text",
+            "duration": "30 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Advanced API Development",
+        "description": "Building RESTful and GraphQL APIs",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "JWT Authentication",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "GraphQL Schema Design",
+            "type": "interactive",
+            "duration": "1 hour",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "API Rate Limiting",
+            "type": "text",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Architecture Patterns Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
+      },
+      {
+        "id": 2,
+        "title": "API Security Quiz",
+        "questions": 12,
+        "duration": "20 minutes"
+      }
+    ],
+    "prerequisites": [
+      "JavaScript Fundamentals",
+      "Basic understanding of Node.js",
+      "Experience with REST APIs"
+    ],
+    "whatYouWillLearn": [
+      "Build server-side rendered applications",
+      "Implement JWT authentication",
+      "Optimize web performance",
+      "Containerize applications with Docker",
+      "Develop GraphQL APIs"
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Python Developer",
+    "slug": "python-developer",
+    "description": "Become a professional Python developer with comprehensive training in Python programming, web development, data processing, and automation.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+    "category": "Data Science",
+    "startDate": "April 19, 2024",
+    "level": "Intermediate",
+    "duration": "8 weeks",
+    "totalHours": 40,
+    "students": 1560,
+    "rating": 4.9,
+    "reviewCount": 430,
+    "instructor": {
+      "name": "Michael Chen",
+      "title": "Python Lead Developer",
+      "bio": "Michael created Python-based solutions for NASA's data analysis systems",
+      "avatar": null
+    },
+    "price": "Free",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Python Core Concepts",
+        "description": "Master Python syntax and programming paradigms",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Python Data Structures",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "title": "Object-Oriented Programming",
+            "type": "interactive",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 3,
+            "title": "Decorators and Generators",
+            "type": "text",
+            "duration": "30 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Web Development with Django",
+        "description": "Build web applications using Django framework",
+        "duration": "6 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Django ORM Basics",
+            "type": "video",
+            "duration": "35 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Building REST APIs",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Authentication Systems",
+            "type": "text",
+            "duration": "25 min",
             "isCompleted": false
           }
         ]
@@ -53,64 +401,212 @@
       {
         "id": 1,
         "title": "Python Basics Quiz",
+        "questions": 15,
+        "duration": "20 minutes"
+      },
+      {
+        "id": 2,
+        "title": "Django Fundamentals Quiz",
         "questions": 10,
         "duration": "15 minutes"
       }
     ],
     "prerequisites": [
-      "Basic computer knowledge",
-      "No prior programming experience required"
+      "Basic programming concepts",
+      "Understanding of algorithms"
     ],
     "whatYouWillLearn": [
-      "Understand Python syntax",
-      "Write basic Python programs",
-      "Work with data types and structures"
+      "Write clean Pythonic code",
+      "Develop web applications with Django",
+      "Work with SQL databases",
+      "Create RESTful APIs",
+      "Implement unit testing"
     ]
   },
+
   {
-    "id": 3,
-    "title": "Web Development with HTML & CSS",
-    "description": "Master HTML and CSS to create stunning, responsive websites. Learn how to structure web pages and apply styles.",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=2070&q=80",
-    "category": "Web Development",
+    "id": 4,
+    "title": "UI/UX Design Principles",
+    "slug": "ui-ux-design-principles",
+    "description": "Master the art of user-centered design with comprehensive training in interface design, user research, and prototyping techniques.",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "category": "Design",
+    "startDate": "April 26, 2024",
     "level": "Beginner",
     "duration": "5 weeks",
-    "totalHours": 22,
-    "students": 1890,
-    "rating": 4.7,
-    "reviewCount": 305,
+    "totalHours": 25,
+    "students": 2300,
+    "rating": 4.8,
+    "reviewCount": 510,
     "instructor": {
-      "name": "David Lee",
-      "title": "Front-End Developer",
-      "bio": "David specializes in front-end technologies and has worked with various startups to build stunning websites.",
+      "name": "Emma Wilson",
+      "title": "Lead Product Designer",
+      "bio": "Emma designed award-winning interfaces for Adobe and Apple",
       "avatar": null
     },
-    "price": "Free",
+    "price": "$29.99",
     "modules": [
       {
         "id": 1,
-        "title": "HTML Basics",
-        "description": "Learn the foundation of web pages with HTML.",
-        "duration": "2 hours",
+        "title": "Design Fundamentals",
+        "description": "Core principles of user interface design",
+        "duration": "3 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "Introduction to HTML",
+            "title": "Color Theory & Typography",
             "type": "video",
-            "duration": "10 min",
+            "duration": "25 min",
             "isCompleted": false
           },
           {
             "id": 2,
-            "title": "Basic HTML Elements",
-            "type": "text",
-            "duration": "20 min",
+            "title": "Grid Systems & Layout",
+            "type": "interactive",
+            "duration": "45 min",
             "isCompleted": false
           },
           {
             "id": 3,
-            "title": "Building Your First Webpage",
+            "title": "Accessibility Standards",
+            "type": "text",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "User Research Methods",
+        "description": "Conducting effective user studies",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Creating User Personas",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Usability Testing",
             "type": "interactive",
+            "duration": "1 hour",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Analyzing Heatmaps",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Design Principles Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
+      },
+      {
+        "id": 2,
+        "title": "User Research Quiz",
+        "questions": 12,
+        "duration": "20 minutes"
+      }
+    ],
+    "prerequisites": [
+      "Basic computer literacy",
+      "Interest in design principles"
+    ],
+    "whatYouWillLearn": [
+      "Create wireframes and prototypes",
+      "Conduct user interviews",
+      "Design accessible interfaces",
+      "Use Figma for UI design",
+      "Analyze user behavior"
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "Front-End Developer",
+    "slug": "front-end-developer",
+    "description": "Comprehensive training in modern front-end development including React, Vue.js, and state management patterns.",
+    "image": "https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+    "category": "Web Development",
+    "startDate": "May 3, 2024",
+    "level": "Intermediate",
+    "duration": "7 weeks",
+    "totalHours": 35,
+    "students": 1820,
+    "rating": 4.8,
+    "reviewCount": 395,
+    "instructor": {
+      "name": "Alex Thompson",
+      "title": "Front-End Engineering Manager",
+      "bio": "Led front-end teams at Netflix and Twitch",
+      "avatar": null
+    },
+    "price": "$39.99",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Modern JavaScript Frameworks",
+        "description": "Deep dive into React ecosystem",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "React Components & Props",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "title": "State Management with Redux",
+            "type": "interactive",
+            "duration": "1 hour",
+            "isCompleted": false
+          },
+          {
+            "id": 3,
+            "title": "React Hooks Deep Dive",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Advanced CSS Techniques",
+        "description": "Master CSS Grid and animations",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "CSS Custom Properties",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Animations with Keyframes",
+            "type": "interactive",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Responsive Design Patterns",
+            "type": "text",
             "duration": "30 min",
             "isCompleted": false
           }
@@ -120,275 +616,129 @@
     "quizzes": [
       {
         "id": 1,
-        "title": "HTML & CSS Basics Quiz",
-        "questions": 12,
+        "title": "React Fundamentals Quiz",
+        "questions": 15,
         "duration": "20 minutes"
+      },
+      {
+        "id": 2,
+        "title": "CSS Mastery Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
       }
     ],
-    "prerequisites": ["Basic computer knowledge"],
+    "prerequisites": ["HTML & CSS Fundamentals", "Basic JavaScript Knowledge"],
     "whatYouWillLearn": [
-      "Create web pages using HTML",
-      "Apply styles using CSS",
-      "Build responsive layouts"
+      "Build React applications",
+      "Implement state management",
+      "Create responsive layouts",
+      "Optimize front-end performance",
+      "Work with CSS-in-JS"
     ]
   },
+
   {
-    "id": 4,
-    "title": "React.js for Frontend Developers",
-    "description": "Learn how to build modern web applications using React.js. Covers components, state management, and hooks.",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2070&q=80",
-    "category": "Web Development",
-    "level": "Intermediate",
-    "duration": "6 weeks",
-    "totalHours": 30,
-    "students": 1567,
-    "rating": 4.8,
+    "id": 6,
+    "title": "Back-End Developer",
+    "slug": "back-end-developer",
+    "description": "Master server-side development with Node.js, databases, and cloud infrastructure. Learn to build secure, scalable APIs and services.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "category": "Programming",
+    "startDate": "May 10, 2024",
+    "level": "Advanced",
+    "duration": "8 weeks",
+    "totalHours": 45,
+    "students": 950,
+    "rating": 4.7,
     "reviewCount": 275,
     "instructor": {
-      "name": "Michael Roberts",
-      "title": "Full-Stack Developer",
-      "bio": "Michael has extensive experience in building scalable applications using React and Node.js.",
+      "name": "David Kim",
+      "title": "Cloud Infrastructure Architect",
+      "bio": "Designed AWS-based systems handling 10M+ daily requests",
       "avatar": null
     },
-    "price": "$49",
+    "price": "$59.99",
     "modules": [
       {
         "id": 1,
-        "title": "Introduction to React.js",
-        "description": "Understand the fundamentals of React.",
-        "duration": "3 hours",
+        "title": "Database Management",
+        "description": "Working with SQL and NoSQL databases",
+        "duration": "6 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "Why Use React?",
+            "title": "PostgreSQL Optimization",
             "type": "video",
-            "duration": "15 min",
+            "duration": "35 min",
             "isCompleted": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Machine Learning with Python",
-    "description": "Dive into machine learning concepts, algorithms, and real-world applications using Python.",
-    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=2070&q=80",
-    "category": "Data Science",
-    "level": "Advanced",
-    "duration": "8 weeks",
-    "totalHours": 40,
-    "students": 1123,
-    "rating": 4.9,
-    "reviewCount": 320,
-    "instructor": {
-      "name": "Alice Kim",
-      "title": "AI Engineer",
-      "bio": "Alice has worked on AI projects in the healthcare and finance sectors, bringing real-world expertise to the course.",
-      "avatar": null
-    },
-    "price": "$99",
-    "modules": [
-      {
-        "id": 1,
-        "title": "Machine Learning Basics",
-        "description": "Learn core ML concepts and algorithms.",
-        "duration": "5 hours",
-        "lessons": [
+          },
           {
-            "id": 1,
-            "title": "Introduction to Machine Learning",
-            "type": "video",
-            "duration": "20 min",
+            "id": 2,
+            "title": "MongoDB Schema Design",
+            "type": "interactive",
+            "duration": "1 hour",
             "isCompleted": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Cybersecurity Essentials",
-    "description": "Learn the fundamentals of cybersecurity, including threat detection, network security, and encryption techniques.",
-    "image": "https://images.unsplash.com/photo-1559757175-5703de16c13b?auto=format&fit=crop&w=2070&q=80",
-    "category": "Security",
-    "level": "Beginner",
-    "duration": "5 weeks",
-    "totalHours": 28,
-    "students": 1450,
-    "rating": 4.7,
-    "reviewCount": 290,
-    "instructor": {
-      "name": "Emily Carter",
-      "title": "Cybersecurity Analyst",
-      "bio": "Emily has over a decade of experience in cybersecurity, specializing in ethical hacking and data protection.",
-      "avatar": null
-    },
-    "price": "$59",
-    "modules": [
-      {
-        "id": 1,
-        "title": "Introduction to Cybersecurity",
-        "description": "Understand the basics of cybersecurity and common threats.",
-        "duration": "3 hours",
-        "lessons": [
+          },
           {
-            "id": 1,
-            "title": "Cybersecurity Threats",
-            "type": "video",
-            "duration": "20 min",
-            "isCompleted": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Data Science with R",
-    "description": "Explore data science concepts, visualization techniques, and predictive modeling using the R programming language.",
-    "image": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?auto=format&fit=crop&w=2070&q=80",
-    "category": "Data Science",
-    "level": "Intermediate",
-    "duration": "7 weeks",
-    "totalHours": 35,
-    "students": 980,
-    "rating": 4.8,
-    "reviewCount": 230,
-    "instructor": {
-      "name": "Robert Simmons",
-      "title": "Data Scientist",
-      "bio": "Robert has worked on large-scale data projects and is passionate about teaching data science with R.",
-      "avatar": null
-    },
-    "price": "$79",
-    "modules": [
-      {
-        "id": 1,
-        "title": "Introduction to R for Data Science",
-        "description": "Learn the basics of R and data manipulation.",
-        "duration": "4 hours",
-        "lessons": [
-          {
-            "id": 1,
-            "title": "Installing and Setting up R",
-            "type": "video",
-            "duration": "15 min",
-            "isCompleted": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Cloud Computing with AWS",
-    "description": "Master the fundamentals of cloud computing and learn how to deploy applications using Amazon Web Services (AWS).",
-    "image": "https://images.unsplash.com/photo-1502937406922-305bb2789e95?auto=format&fit=crop&w=2070&q=80",
-    "category": "Cloud Computing",
-    "level": "Advanced",
-    "duration": "8 weeks",
-    "totalHours": 40,
-    "students": 1225,
-    "rating": 4.9,
-    "reviewCount": 315,
-    "instructor": {
-      "name": "James Nguyen",
-      "title": "Cloud Architect",
-      "bio": "James has extensive experience in cloud solutions and has worked with multiple Fortune 500 companies.",
-      "avatar": null
-    },
-    "price": "$99",
-    "modules": [
-      {
-        "id": 1,
-        "title": "AWS Fundamentals",
-        "description": "Introduction to AWS services and cloud infrastructure.",
-        "duration": "5 hours",
-        "lessons": [
-          {
-            "id": 1,
-            "title": "Overview of AWS Services",
-            "type": "video",
+            "id": 3,
+            "title": "Database Indexing Strategies",
+            "type": "text",
             "duration": "25 min",
             "isCompleted": false
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Game Development with Unity",
-    "description": "Learn how to create 2D and 3D games using the Unity engine. Covers game physics, animations, and scripting.",
-    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=2070&q=80",
-    "category": "Game Development",
-    "level": "Intermediate",
-    "duration": "6 weeks",
-    "totalHours": 32,
-    "students": 1870,
-    "rating": 4.8,
-    "reviewCount": 280,
-    "instructor": {
-      "name": "Sophia Martinez",
-      "title": "Game Developer",
-      "bio": "Sophia has developed several indie games and teaches game design and development.",
-      "avatar": null
-    },
-    "price": "$89",
-    "modules": [
+      },
       {
-        "id": 1,
-        "title": "Getting Started with Unity",
-        "description": "Introduction to Unity’s interface and features.",
-        "duration": "3.5 hours",
+        "id": 2,
+        "title": "Cloud Infrastructure",
+        "description": "Deploying to AWS and Azure",
+        "duration": "5 hours",
         "lessons": [
           {
-            "id": 1,
-            "title": "Installing Unity and Setting Up Your First Project",
+            "id": 4,
+            "title": "AWS Lambda Functions",
             "type": "video",
-            "duration": "20 min",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Container Orchestration",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "CI/CD Pipelines",
+            "type": "text",
+            "duration": "45 min",
             "isCompleted": false
           }
         ]
       }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Mobile App Development with Flutter",
-    "description": "Build cross-platform mobile applications using Flutter and Dart. Learn how to create user-friendly and performant apps.",
-    "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?auto=format&fit=crop&w=2070&q=80",
-    "category": "Mobile Development",
-    "level": "Intermediate",
-    "duration": "7 weeks",
-    "totalHours": 36,
-    "students": 1432,
-    "rating": 4.7,
-    "reviewCount": 250,
-    "instructor": {
-      "name": "Daniel Wilson",
-      "title": "Mobile App Developer",
-      "bio": "Daniel has worked on several successful mobile applications and specializes in Flutter development.",
-      "avatar": null
-    },
-    "price": "$79",
-    "modules": [
+    ],
+    "quizzes": [
       {
         "id": 1,
-        "title": "Introduction to Flutter",
-        "description": "Learn the basics of Flutter and Dart programming.",
-        "duration": "4 hours",
-        "lessons": [
-          {
-            "id": 1,
-            "title": "Why Use Flutter?",
-            "type": "video",
-            "duration": "15 min",
-            "isCompleted": false
-          }
-        ]
+        "title": "Database Design Quiz",
+        "questions": 12,
+        "duration": "18 minutes"
+      },
+      {
+        "id": 2,
+        "title": "Cloud Deployment Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
       }
+    ],
+    "prerequisites": ["Node.js Fundamentals", "Understanding of REST APIs"],
+    "whatYouWillLearn": [
+      "Design database schemas",
+      "Implement authentication systems",
+      "Deploy serverless applications",
+      "Monitor application performance",
+      "Secure backend APIs"
     ]
   }
 ]
