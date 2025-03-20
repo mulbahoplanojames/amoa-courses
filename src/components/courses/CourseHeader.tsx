@@ -93,9 +93,12 @@ const CourseHeader = ({
                     )}
                   </div>
                   {progressPercentage > 0 ? (
-                    <button className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                      Continue Learning
-                    </button>
+                    <Button
+                      className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-primary-clr border border-transparent rounded-md shadow-sm hover:bg-primary-clr/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 cursor-pointer"
+                      asChild
+                    >
+                      <Link href={`/courses/survey`}>Continue Learning</Link>
+                    </Button>
                   ) : (
                     <Button
                       className="flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-primary-clr border border-transparent rounded-md shadow-sm hover:bg-primary-clr/80 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 cursor-pointer"
