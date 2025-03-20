@@ -7,8 +7,12 @@ import { Tabs } from "@radix-ui/react-tabs";
 import { TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
 
-const SingleCorsePage = async ({ params }: { params: { slug: string } }) => {
-  const { slug } = params;
+const SingleCorsePage = async ({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) => {
+  const { slug } = await params;
   const course = courses.find((course) => course.slug === slug);
 
   if (!course) {
