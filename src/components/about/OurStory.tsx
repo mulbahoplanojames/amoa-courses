@@ -27,7 +27,7 @@ const OurStory = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=600"
+                src="/ab3.jpg"
                 alt="EduQuiz Pro Team"
                 fill
                 className="object-cover"

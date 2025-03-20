@@ -58,7 +58,7 @@ const HomeHero = () => {
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl hidden lg:block">
               <div className="absolute inset-0 bg-gradient-to-br from-black/40 to-black/10 z-10 rounded-lg"></div>
               <Image
-                src="/placeholder.svg?height=800&width=600"
+                src="/ab2.jpg"
                 alt="EduQuiz Pro Platform"
                 fill
                 className="object-cover"
