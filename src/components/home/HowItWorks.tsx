@@ -77,8 +77,10 @@ const HowItWorks = () => {
                   <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
                   <p className="text-muted-foreground">{step.description}</p>
                 </div>
-                {index < 7 && (
+                {(index > -1 && index < 3) || (index > 3 && index < 7) ? (
                   <div className="hidden lg:block absolute top-1/2 right-0 w-1/2 h-0.5 bg-primary/20 z-0 transform translate-x-1/2"></div>
+                ) : (
+                  index > 0 && null
                 )}
               </div>
             ))}
