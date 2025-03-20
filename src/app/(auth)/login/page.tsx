@@ -51,6 +51,9 @@ export default function LoginPage() {
     <div className="container max-w-md mx-auto px-4 py-16">
       <Card className="border-none shadow-lg">
         <CardHeader className="space-y-1 text-center">
+          <Button variant="outline" asChild>
+            <Link href="/">Back to Home</Link>
+          </Button>
           <CardTitle className="text-2xl font-bold">Welcome back</CardTitle>
           <CardDescription>
             Enter your credentials to access your account
