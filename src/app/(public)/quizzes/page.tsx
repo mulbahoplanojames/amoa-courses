@@ -27,6 +27,9 @@ import {
 } from "lucide-react";
 import { type Quiz, getAllQuizzes } from "@/data/quizzes";
 import QuizzesHero from "@/components/quizzes/QuizzesHero";
+import SelectedCategories from "./SelectedCategories";
+import QuizDuration from "./QuizDuration";
+import QuizDifficulty from "./QuizDifficulty";
 
 // Define types for progress and results
 // interface QuizProgress {
@@ -248,16 +251,10 @@ export default function QuizzesPage() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="">
       <QuizzesHero />
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Quiz Library</h1>
-        <p className="text-muted-foreground">
-          Explore our collection of quizzes to test and expand your knowledge
-        </p>
-      </header>
 
-      <div className="flex flex-col md:flex-row gap-6 mb-8">
+      <div className="flex flex-col md:flex-row gap-6 mb-8 container mx-auto px-4 py-8">
         <div className="md:w-1/4 space-y-6">
           <div className="relative">
             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
@@ -269,113 +266,27 @@ export default function QuizzesPage() {
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
-
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="font-medium">Categories</h3>
-              {selectedCategories.length > 0 && (
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="h-8 px-2 text-xs"
-                  onClick={() => setSelectedCategories([])}
-                >
-                  Clear
-                </Button>
-              )}
-            </div>
-            <div className="space-y-2">
-              {categories.map((category) => (
-                <Button
-                  key={category.name}
-                  variant={
-                    selectedCategories.includes(category.name)
-                      ? "default"
-                      : "outline"
-                  }
-                  className="justify-start w-full font-normal"
-                  onClick={() => toggleCategory(category.name)}
-                >
-                  {category.icon}
-                  <span className="ml-2">{category.name}</span>
-                </Button>
-              ))}
-            </div>
+          {/* Categories */}
+          <SelectedCategories
+            categories={categories}
+            selectedCategories={selectedCategories}
+            toggleCategory={toggleCategory}
+            setSelectedCategories={setSelectedCategories}
+          />
+          <div className="grid grid-cols-2 gap-3">
+            <QuizDifficulty
+              selectedDifficulties={selectedDifficulties}
+              setSelectedDifficulties={setSelectedDifficulties}
+              difficulties={difficulties}
+              toggleDifficulty={toggleDifficulty}
+            />
+            <QuizDuration
+              selectedDurations={selectedDurations}
+              setSelectedDurations={setSelectedDurations}
+              durations={durations}
+              toggleDuration={toggleDuration}
+            />
           </div>
-
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="font-medium">Difficulty</h3>
-              {selectedDifficulties.length > 0 && (
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="h-8 px-2 text-xs"
-                  onClick={() => setSelectedDifficulties([])}
-                >
-                  Clear
-                </Button>
-              )}
-            </div>
-            <div className="space-y-2">
-              {difficulties.map((level) => (
-                <div key={level} className="flex items-center space-x-2">
-                  <input
-                    type="checkbox"
-                    id={`difficulty-${level.toLowerCase()}`}
-                    className="rounded text-primary focus:ring-primary"
-                    checked={selectedDifficulties.includes(level)}
-                    onChange={() => toggleDifficulty(level)}
-                  />
-                  <label
-                    htmlFor={`difficulty-${level.toLowerCase()}`}
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                  >
-                    {level}
-                  </label>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="font-medium">Duration</h3>
-              {selectedDurations.length > 0 && (
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="h-8 px-2 text-xs"
-                  onClick={() => setSelectedDurations([])}
-                >
-                  Clear
-                </Button>
-              )}
-            </div>
-            <div className="space-y-2">
-              {durations.map((duration) => (
-                <div
-                  key={duration.value}
-                  className="flex items-center space-x-2"
-                >
-                  <input
-                    type="checkbox"
-                    id={`duration-${duration.value}`}
-                    className="rounded text-primary focus:ring-primary"
-                    checked={selectedDurations.includes(duration.value)}
-                    onChange={() => toggleDuration(duration.value)}
-                  />
-                  <label
-                    htmlFor={`duration-${duration.value}`}
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                  >
-                    {duration.label}
-                  </label>
-                </div>
-              ))}
-            </div>
-          </div>
-
           {(selectedCategories.length > 0 ||
             selectedDifficulties.length > 0 ||
             selectedDurations.length > 0 ||
