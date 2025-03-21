@@ -7,19 +7,19 @@ const team = [
     name: "Oplano James Mulbah",
     role: "Founder & CEO",
     bio: "A Software Engineer with a passion for making education accessible to all.",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/team/oplano.jpeg",
   },
   {
     name: "Abdallah Aleer",
     role: "Founder & CTO",
     bio: "Software Engineer with focused on creating intuitive learning platforms.",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/team/abdo.jpeg",
   },
   {
     name: "Solomon Okeke",
     role: "Head of Content",
     bio: "Curriculum expert dedicated to creating engaging learning materials.",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/team/solo.jpg",
   },
 ];
 const OurTeam = () => {

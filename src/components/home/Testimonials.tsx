@@ -7,19 +7,19 @@ const testimonials = [
   {
     quote:
       "AMOA helped me prepare for technical interviews with real-world coding challenges. I landed my dream job at a top tech company!",
-    author: "Sarah Johnson",
+    author: "Michael Chen",
     role: "Software Engineer",
     company: "TechCorp",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/clients/testimo1.jpg",
     stars: 5,
   },
   {
     quote:
       "The interactive quizzes and immediate feedback made learning new programming languages so much easier. I've recommended it to all my colleagues.",
-    author: "Michael Chen",
-    role: "Full Stack Developer",
+    author: "Sarah Johnson ",
+    role: "Back End Developer",
     company: "WebSolutions",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/clients/testimo2.jpg",
     stars: 4,
   },
   {
@@ -28,7 +28,7 @@ const testimonials = [
     author: "Emily Rodriguez",
     role: "Frontend Developer",
     company: "CreativeDigital",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/clients/testimo4.jpg",
     stars: 4,
   },
 ];
