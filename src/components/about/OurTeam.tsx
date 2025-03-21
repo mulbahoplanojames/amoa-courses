@@ -43,21 +43,21 @@ const team = [
       },
       {
         name: "Linkedin",
-        link: "https://www.linkedin.com/in/abdallah-aleer/",
+        link: "https://www.linkedin.com/in/abdo-junior-7284752b2/",
         icon: <LinkedinIcon />,
       },
       {
         name: "Twitter",
-        link: "https://twitter.com/abdallahaleer",
+        link: "https://x.com/juniorab444",
         icon: <TwitterIcon />,
       },
     ],
   },
   {
-    name: "Solomon Okeke",
+    name: "SUGIRA NGENDAHAYO Salomon",
     role: "Head of Content",
     bio: "Curriculum expert dedicated to creating engaging learning materials.",
-    image: "/team/solo.jpg",
+    image: "/team/solo.jpeg",
     socials: [
       {
         name: "Whatsapp",
@@ -66,7 +66,7 @@ const team = [
       },
       {
         name: "Linkedin",
-        link: "https://www.linkedin.com/in/solomonokeke/",
+        link: "https://www.linkedin.com/in/salomon-elisha-0601272a1/",
         icon: <LinkedinIcon />,
       },
       {

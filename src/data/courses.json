@@ -227,7 +227,7 @@
       "bio": "Sarah has 10+ years experience building enterprise applications for Fortune 500 companies.",
       "avatar": "/team/oplano.jpeg"
     },
-    "price": "$49.99",
+    "price": "$20.00",
     "modules": [
       {
         "id": 1,
@@ -439,10 +439,10 @@
     "rating": 4.8,
     "reviewCount": 510,
     "instructor": {
-      "name": "Emma Wilson",
+      "name": "SUGIRA NGENDAHAYO Salomon",
       "title": "Lead Product Designer",
       "bio": "Emma designed award-winning interfaces for Adobe and Apple",
-      "avatar": null
+      "avatar": "/team/solo.jpeg"
     },
     "price": "$20.00",
     "modules": [
@@ -547,10 +547,10 @@
     "rating": 4.8,
     "reviewCount": 395,
     "instructor": {
-      "name": "Solomon",
+      "name": "SUGIRA NGENDAHAYO Salomon",
       "title": "Front-End Engineering Manager",
       "bio": "Led front-end teams at AMOA Tech",
-      "avatar": "/team/solo.jpg"
+      "avatar": "/team/solo.jpeg"
     },
     "price": "$20.00",
     "modules": [
