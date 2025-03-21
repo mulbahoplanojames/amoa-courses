@@ -19,6 +19,7 @@ export interface Question {
 export interface Quiz {
   id: string;
   title: string;
+  time?: number;
   description: string;
   category: string;
   difficulty: "Beginner" | "Intermediate" | "Advanced";
@@ -39,7 +40,8 @@ export const quizzes: Quiz[] = [
     description: "Test your knowledge of JavaScript basics",
     category: "Programming",
     difficulty: "Beginner",
-    timeEstimate: "1 min",
+    timeEstimate: "10 min",
+    time: 10,
     questions: [
       {
         id: "1-1",
@@ -110,7 +112,8 @@ export const quizzes: Quiz[] = [
     description: "Master React hooks for functional components",
     category: "Web Development",
     difficulty: "Intermediate",
-    timeEstimate: "20 min",
+    timeEstimate: "9 min",
+    time: 9,
     questions: [
       {
         id: "2-1",
@@ -162,7 +165,8 @@ export const quizzes: Quiz[] = [
     description: "Test your knowledge of CSS Flexbox layout",
     category: "Web Development",
     difficulty: "Beginner",
-    timeEstimate: "15 min",
+    timeEstimate: "10 min",
+    time: 10,
     questions: [
       {
         id: "3-1",

@@ -226,7 +226,7 @@ export default function QuizPage({ params }: { params: { id: string } }) {
       setProgress(quizProgress);
 
       // Calculate time remaining (30 minutes per quiz by default)
-      const totalTimeInMinutes = 30;
+      const totalTimeInMinutes = quizData.time || 20;
       const startTime = new Date(quizProgress.startedAt).getTime();
       const elapsedTime = (Date.now() - startTime) / 1000 / 60; // in minutes
       const remainingTime = Math.max(0, totalTimeInMinutes - elapsedTime);
