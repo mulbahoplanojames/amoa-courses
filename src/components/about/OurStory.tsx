@@ -6,6 +6,14 @@ const OurStory = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
+              <Image
+                src="/ab3.jpg"
+                alt="EduQuiz Pro Team"
+                fill
+                className="object-cover"
+              />
+            </div>
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-muted-foreground mb-6">
@@ -24,14 +32,6 @@ const OurStory = () => {
                 their careers, and discover the joy of continuous learning and
                 we are planning to expand our reach.
               </p>
-            </div>
-            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-              <Image
-                src="/ab3.jpg"
-                alt="EduQuiz Pro Team"
-                fill
-                className="object-cover"
-              />
             </div>
           </div>
         </div>

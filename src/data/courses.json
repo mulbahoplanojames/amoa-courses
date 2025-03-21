@@ -8,16 +8,16 @@
     "category": "Programming",
     "startDate": "April 5, 2024",
     "level": "Beginner",
-    "duration": "4 weeks",
+    "duration": "10 weeks",
     "totalHours": 20,
-    "students": 1245,
+    "students": 15,
     "rating": 4.8,
     "reviewCount": 325,
     "instructor": {
-      "name": "John Doe",
-      "title": "Senior JavaScript Developer",
-      "bio": "John has been teaching JavaScript for over 8 years and has worked with companies like Google and Facebook.",
-      "avatar": null
+      "name": "Oplano James Mulbah",
+      "title": "JavaScript Developer",
+      "bio": "Oplano has been teaching JavaScript for over 2 years and has worked with companies like Google and Facebook.",
+      "avatar": "/team/oplano.jpeg"
     },
     "price": "Free",
     "modules": [
@@ -216,16 +216,16 @@
     "category": "Web Development",
     "startDate": "April 12, 2024",
     "level": "Advanced",
-    "duration": "6 weeks",
+    "duration": "9 weeks",
     "totalHours": 35,
-    "students": 890,
+    "students": 10,
     "rating": 4.7,
     "reviewCount": 210,
     "instructor": {
-      "name": "Sarah Johnson",
+      "name": "Oplano James Mulbah",
       "title": "Full-Stack Architect",
       "bio": "Sarah has 10+ years experience building enterprise applications for Fortune 500 companies.",
-      "avatar": null
+      "avatar": "/team/oplano.jpeg"
     },
     "price": "$49.99",
     "modules": [
@@ -324,17 +324,17 @@
     "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
     "category": "Data Science",
     "startDate": "April 19, 2024",
-    "level": "Intermediate",
+    "level": "Beginner",
     "duration": "8 weeks",
     "totalHours": 40,
     "students": 1560,
     "rating": 4.9,
     "reviewCount": 430,
     "instructor": {
-      "name": "Michael Chen",
+      "name": "Abdallah Aleer",
       "title": "Python Lead Developer",
       "bio": "Michael created Python-based solutions for NASA's data analysis systems",
-      "avatar": null
+      "avatar": "/team/abdo.jpeg"
     },
     "price": "Free",
     "modules": [
@@ -435,7 +435,7 @@
     "level": "Beginner",
     "duration": "5 weeks",
     "totalHours": 25,
-    "students": 2300,
+    "students": 15,
     "rating": 4.8,
     "reviewCount": 510,
     "instructor": {
@@ -444,7 +444,7 @@
       "bio": "Emma designed award-winning interfaces for Adobe and Apple",
       "avatar": null
     },
-    "price": "$29.99",
+    "price": "$20.00",
     "modules": [
       {
         "id": 1,
@@ -539,20 +539,20 @@
     "description": "Comprehensive training in modern front-end development including React, Vue.js, and state management patterns.",
     "image": "https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
     "category": "Web Development",
-    "startDate": "May 3, 2024",
+    "startDate": "April 12, 2024",
     "level": "Intermediate",
-    "duration": "7 weeks",
+    "duration": "10 weeks",
     "totalHours": 35,
-    "students": 1820,
+    "students": 18,
     "rating": 4.8,
     "reviewCount": 395,
     "instructor": {
-      "name": "Alex Thompson",
+      "name": "Solomon",
       "title": "Front-End Engineering Manager",
-      "bio": "Led front-end teams at Netflix and Twitch",
-      "avatar": null
+      "bio": "Led front-end teams at AMOA Tech",
+      "avatar": "/team/solo.jpg"
     },
-    "price": "$39.99",
+    "price": "$20.00",
     "modules": [
       {
         "id": 1,
@@ -652,12 +652,12 @@
     "rating": 4.7,
     "reviewCount": 275,
     "instructor": {
-      "name": "David Kim",
+      "name": "Abdallah Aleer",
       "title": "Cloud Infrastructure Architect",
-      "bio": "Designed AWS-based systems handling 10M+ daily requests",
-      "avatar": null
+      "bio": "Designed AWS-based systems handling 100+ daily requests",
+      "avatar": "/team/abdo.jpeg"
     },
-    "price": "$59.99",
+    "price": "$20.00",
     "modules": [
       {
         "id": 1,
