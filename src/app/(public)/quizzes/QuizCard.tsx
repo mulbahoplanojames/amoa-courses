@@ -103,7 +103,10 @@ const QuizCard: React.FC<QuizCardProps> = ({
           )}
         </CardContent>
         <CardFooter className="pt-2">
-          <Button asChild className="w-full">
+          <Button
+            asChild
+            className="w-full bg-primary-clr hover:bg-primary-clr/80"
+          >
             <Link href={`/quiz/${quiz.id}`}>
               {inProgressQuizIds.includes(quiz.id)
                 ? "Continue Quiz"

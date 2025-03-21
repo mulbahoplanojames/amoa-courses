@@ -44,7 +44,11 @@ const SelectedCategories: React.FC<SelectedCategoriesProps> = ({
                   ? "default"
                   : "outline"
               }
-              className="justify-start w-full font-normal"
+              className={`justify-start w-full font-normal ${
+                selectedCategories.includes(category.name)
+                  ? "bg-primary-clr hover:bg-primary-clr/80 text-white"
+                  : ""
+              }`}
               onClick={() => toggleCategory(category.name)}
             >
               {category.icon}

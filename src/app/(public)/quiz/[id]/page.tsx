@@ -72,7 +72,7 @@ export default function QuizPage({ params }: { params: { id: string } }) {
     try {
       if (typeof window === "undefined") return null;
 
-      const progressData = localStorage.getItem("eduquiz_progress");
+      const progressData = localStorage.getItem("amoaquiz_progress");
       if (!progressData) return null;
 
       const allProgress = JSON.parse(progressData);
@@ -91,7 +91,7 @@ export default function QuizPage({ params }: { params: { id: string } }) {
       if (typeof window === "undefined") return;
 
       // Get existing progress data
-      const progressData = localStorage.getItem("eduquiz_progress");
+      const progressData = localStorage.getItem("amoaquiz_progress");
       let allProgress: QuizProgress[] = [];
 
       if (progressData) {
@@ -115,7 +115,7 @@ export default function QuizPage({ params }: { params: { id: string } }) {
       }
 
       // Save back to localStorage
-      localStorage.setItem("eduquiz_progress", JSON.stringify(allProgress));
+      localStorage.setItem("amoaquiz_progress", JSON.stringify(allProgress));
     } catch (error) {
       console.error("Error saving quiz progress:", error);
     }
@@ -128,7 +128,7 @@ export default function QuizPage({ params }: { params: { id: string } }) {
       if (typeof window === "undefined") return;
 
       // Get existing results
-      const resultsData = localStorage.getItem("eduquiz_results");
+      const resultsData = localStorage.getItem("amoaquiz_results");
       let allResults: QuizResult[] = [];
 
       if (resultsData) {
@@ -147,7 +147,7 @@ export default function QuizPage({ params }: { params: { id: string } }) {
       allResults.push(result);
 
       // Save back to localStorage
-      localStorage.setItem("eduquiz_results", JSON.stringify(allResults));
+      localStorage.setItem("amoaquiz_results", JSON.stringify(allResults));
     } catch (error) {
       console.error("Error saving quiz results:", error);
     }

@@ -52,7 +52,7 @@ export default function QuizzesPage() {
     try {
       if (typeof window === "undefined") return [];
 
-      const resultsData = localStorage.getItem("eduquiz_results");
+      const resultsData = localStorage.getItem("amoaquiz_results");
       if (!resultsData) return [];
 
       const results = JSON.parse(resultsData);
@@ -70,7 +70,7 @@ export default function QuizzesPage() {
     try {
       if (typeof window === "undefined") return [];
 
-      const progressData = localStorage.getItem("eduquiz_progress");
+      const progressData = localStorage.getItem("amoaquiz_progress");
       if (!progressData) return [];
 
       const progress = JSON.parse(progressData);

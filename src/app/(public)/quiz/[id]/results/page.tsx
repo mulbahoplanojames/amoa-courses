@@ -43,7 +43,7 @@ export default function QuizResultsPage() {
     try {
       if (typeof window === "undefined") return null;
 
-      const resultsData = localStorage.getItem("eduquiz_results");
+      const resultsData = localStorage.getItem("amoaquiz_results");
       if (!resultsData) return null;
 
       const allResults = JSON.parse(resultsData);
@@ -65,14 +65,17 @@ export default function QuizResultsPage() {
     try {
       if (typeof window === "undefined") return;
 
-      const progressData = localStorage.getItem("eduquiz_progress");
+      const progressData = localStorage.getItem("amoaquiz_progress");
       if (!progressData) return;
 
       const allProgress = JSON.parse(progressData);
       if (!Array.isArray(allProgress)) return;
 
       const updatedProgress = allProgress.filter((p) => p.quizId !== quizId);
-      localStorage.setItem("eduquiz_progress", JSON.stringify(updatedProgress));
+      localStorage.setItem(
+        "amoaquiz_progress",
+        JSON.stringify(updatedProgress)
+      );
     } catch (error) {
       console.error("Error removing quiz progress:", error);
     }
