@@ -1,62 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import {
-  Search,
-  Filter,
-  Clock,
-  BarChart3,
-  BookOpen,
-  Code,
-  Database,
-  Layout,
-  Server,
-} from "lucide-react";
+import { Search, BookOpen, Code, Database, Layout, Server } from "lucide-react";
 import { type Quiz, getAllQuizzes } from "@/data/quizzes";
 import QuizzesHero from "@/components/quizzes/QuizzesHero";
 import SelectedCategories from "./SelectedCategories";
 import QuizDuration from "./QuizDuration";
 import QuizDifficulty from "./QuizDifficulty";
-
-// Define types for progress and results
-// interface QuizProgress {
-//   quizId: string;
-//   title: string;
-//   category: string;
-//   currentQuestion: number;
-//   totalQuestions: number;
-//   answers: Record<string, string>;
-//   startedAt: string;
-//   lastUpdated: string;
-//   completed: boolean;
-//   progress: number;
-// }
-
-// interface QuizResult {
-//   quizId: string;
-//   title: string;
-//   category: string;
-//   difficulty: string;
-//   score: number;
-//   correctAnswers: number;
-//   totalQuestions: number;
-//   timeSpent: string;
-//   completedAt: string;
-//   answers: any[];
-// }
+import QuizSort from "./QuizSort";
+import QuizCard from "./QuizCard";
 
 export default function QuizzesPage() {
   const [quizzes, setQuizzes] = useState<Quiz[]>([]);
@@ -312,43 +268,10 @@ export default function QuizzesPage() {
               </TabsList>
             </Tabs>
 
-            <div className="flex items-center gap-2 w-full sm:w-auto">
-              <Button variant="outline" size="sm" className="h-8 px-3 text-xs">
-                <Filter className="h-3.5 w-3.5 mr-1" />
-                Filters
-              </Button>
-              <select
-                className="h-8 rounded-md border border-input bg-background px-3 py-1 text-xs ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-                onChange={(e) => {
-                  const value = e.target.value;
-                  if (value === "popularity") {
-                    setFilteredQuizzes(
-                      [...filteredQuizzes].sort(
-                        (a, b) => b.popularity - a.popularity
-                      )
-                    );
-                  } else if (value === "newest") {
-                    setFilteredQuizzes(
-                      [...filteredQuizzes].sort(
-                        (a, b) =>
-                          new Date(b.createdAt).getTime() -
-                          new Date(a.createdAt).getTime()
-                      )
-                    );
-                  } else if (value === "name") {
-                    setFilteredQuizzes(
-                      [...filteredQuizzes].sort((a, b) =>
-                        a.title.localeCompare(b.title)
-                      )
-                    );
-                  }
-                }}
-              >
-                <option value="popularity">Sort by: Popularity</option>
-                <option value="newest">Sort by: Newest</option>
-                <option value="name">Sort by: Name (A-Z)</option>
-              </select>
-            </div>
+            <QuizSort
+              filteredQuizzes={filteredQuizzes}
+              setFilteredQuizzes={setFilteredQuizzes}
+            />
           </div>
 
           {filteredQuizzes.length === 0 ? (
@@ -363,91 +286,12 @@ export default function QuizzesPage() {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {filteredQuizzes.map((quiz) => (
-                <Card
+                <QuizCard
                   key={quiz.id}
-                  className="overflow-hidden hover:shadow-md transition-shadow"
-                >
-                  <CardHeader className="pb-2">
-                    <div className="flex justify-between items-start">
-                      <div>
-                        <CardTitle className="text-lg">{quiz.title}</CardTitle>
-                        <CardDescription>{quiz.description}</CardDescription>
-                      </div>
-                      <Badge
-                        variant={
-                          quiz.difficulty === "Beginner"
-                            ? "outline"
-                            : quiz.difficulty === "Intermediate"
-                            ? "secondary"
-                            : "default"
-                        }
-                      >
-                        {quiz.difficulty}
-                      </Badge>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="pb-2">
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      <Badge variant="outline" className="bg-muted/50">
-                        {quiz.category}
-                      </Badge>
-                      <div className="flex items-center text-xs text-muted-foreground">
-                        <Clock className="h-3 w-3 mr-1" />
-                        {quiz.timeEstimate}
-                      </div>
-                      <div className="flex items-center text-xs text-muted-foreground">
-                        <BookOpen className="h-3 w-3 mr-1" />
-                        {quiz.questions.length} questions
-                      </div>
-                    </div>
-                    <div className="flex items-center justify-between text-sm">
-                      <div className="flex items-center">
-                        <BarChart3 className="h-4 w-4 mr-1 text-muted-foreground" />
-                        <span>{quiz.completions} completions</span>
-                      </div>
-                      <div className="flex items-center">
-                        <span className="text-amber-500 mr-1">★</span>
-                        <span>{quiz.popularity}</span>
-                      </div>
-                    </div>
-
-                    {/* Show progress if quiz is in progress */}
-                    {inProgressQuizIds.includes(quiz.id) && (
-                      <div className="mt-2 space-y-1">
-                        <div className="flex justify-between text-xs">
-                          <span>In progress</span>
-                        </div>
-                        <div className="h-1.5 bg-muted rounded-full overflow-hidden">
-                          <div
-                            className="h-full bg-primary"
-                            style={{ width: "30%" }}
-                          ></div>
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Show completed badge if quiz is completed */}
-                    {completedQuizIds.includes(quiz.id) && (
-                      <div className="mt-2">
-                        <Badge
-                          variant="outline"
-                          className="bg-green-50 text-green-700 border-green-200 dark:bg-green-950/20 dark:text-green-400 dark:border-green-800"
-                        >
-                          Completed
-                        </Badge>
-                      </div>
-                    )}
-                  </CardContent>
-                  <CardFooter className="pt-2">
-                    <Button asChild className="w-full">
-                      <Link href={`/quiz/${quiz.id}`}>
-                        {inProgressQuizIds.includes(quiz.id)
-                          ? "Continue Quiz"
-                          : "Start Quiz"}
-                      </Link>
-                    </Button>
-                  </CardFooter>
-                </Card>
+                  quiz={quiz}
+                  inProgressQuizIds={inProgressQuizIds}
+                  completedQuizIds={completedQuizIds}
+                />
               ))}
             </div>
           )}
