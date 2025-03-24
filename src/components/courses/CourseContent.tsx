@@ -9,6 +9,13 @@ import {
 } from "lucide-react";
 import React from "react";
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
 const CourseContent = ({
   course,
   totalLessons,
@@ -28,43 +35,40 @@ const CourseContent = ({
             <span className="mx-2">•</span>
             <span>{course.totalHours} total hours</span>
           </div>
-          <div className="mt-6 space-y-4">
+          <div className="mt-6 space-y-4 ">
             {course.modules.map((module) => (
-              <div
+              <Accordion
                 key={module.id}
-                className="overflow-hidden border border-gray-200 rounded-lg"
+                type="single"
+                collapsible
+                className="overflow-hidden border border-gray-200 rounded-lg w-full"
               >
-                <div className="flex items-center justify-between px-4 py-3 cursor-pointer bg-gray-50">
-                  <div>
-                    <h3 className="text-lg font-medium text-gray-900">
-                      {module.title}
-                    </h3>
-                    <p className="text-sm text-gray-500">
-                      {module.description}
-                    </p>
-                  </div>
-                  <div className="flex items-center">
-                    <span className="mr-4 text-sm text-gray-500">
-                      {module.duration}
-                    </span>
-                    <svg
-                      className="w-5 h-5 text-gray-500"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="px-4 py-3 space-y-2 border-t border-gray-200">
+                <AccordionItem
+                  value={module.id.toString()}
+                  className="px-4 py-3 cursor-pointer bg-gray-50"
+                >
+                  <AccordionTrigger className="flex items-center justify-between w-full cursor-pointer">
+                    <div className="">
+                      <h3 className="text-lg font-medium text-gray-900">
+                        {module.title}
+                      </h3>
+                      <p className="text-sm text-gray-500">
+                        {module.description}
+                      </p>
+                    </div>
+                    <div className="flex items-center  ">
+                      <span className="mr-4 text-sm text-gray-500">
+                        {module.duration}
+                      </span>
+                    </div>
+                  </AccordionTrigger>
+                </AccordionItem>
+                <AccordionItem
+                  className="px-4 py-3 space-y-2 border-t border-gray-200"
+                  value={module.id.toString()}
+                >
                   {module.lessons.map((lesson) => (
-                    <div
+                    <AccordionContent
                       key={lesson.id}
                       className="flex items-center justify-between py-2"
                     >
@@ -114,10 +118,10 @@ const CourseContent = ({
                           <LockIcon className="w-4 h-4 text-gray-400" />
                         )}
                       </div>
-                    </div>
+                    </AccordionContent>
                   ))}
-                </div>
-              </div>
+                </AccordionItem>
+              </Accordion>
             ))}
           </div>
         </div>
