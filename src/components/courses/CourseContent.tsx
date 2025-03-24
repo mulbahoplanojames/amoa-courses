@@ -15,6 +15,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import Link from "next/link";
+import { Button } from "../ui/button";
 
 const CourseContent = ({
   course,
@@ -111,9 +113,9 @@ const CourseContent = ({
                           </button>
                         ) : module.id === 1 ||
                           module.lessons.some((l) => l.isCompleted) ? (
-                          <button className="text-sm font-medium text-indigo-600 hover:text-indigo-500">
-                            Start
-                          </button>
+                          <Button className="text-sm font-medium bg-primary-clr hover:bg-primary-clr/80 text-white hover:text-white">
+                            <Link href={course.docs!}>Start</Link>
+                          </Button>
                         ) : (
                           <LockIcon className="w-4 h-4 text-gray-400" />
                         )}

@@ -6,7 +6,15 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
-import { Home, Info, BookOpen, FileQuestion, Menu, X } from "lucide-react";
+import {
+  Home,
+  Info,
+  BookOpen,
+  FileQuestion,
+  Menu,
+  X,
+  ArrowRight,
+} from "lucide-react";
 import { ThemeModeToggle } from "@/components/ui/theme-toggle";
 // import { AppInitializer } from "@/components/app-initializer";
 
@@ -72,7 +80,7 @@ export function Navbar() {
         </menu>
         <div className="flex items-center gap-2">
           <div className="md:flex hidden items-center  space-x-4 ">
-            <Button variant="outline" size="sm" asChild>
+            {/* <Button variant="outline" size="sm" asChild>
               <Link href="/login">Login</Link>
             </Button>
             <Button
@@ -81,6 +89,14 @@ export function Navbar() {
               className="bg-primary-clr hover:bg-primary-clr/80 dark:text-white"
             >
               <Link href="/signup">Sign Up</Link>
+            </Button> */}
+            <Button
+              asChild
+              className="bg-primary-clr hover:bg-primary-clr/80 text-white"
+            >
+              <Link href="/courses/survey">
+                Apply Now <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
             </Button>
             <ThemeModeToggle />
           </div>
@@ -123,7 +139,7 @@ export function Navbar() {
                   ))}
                   <div className="border-t pt-4 mt-2">
                     <div className="flex items-center  space-x-4">
-                      <Button variant="outline" size="sm" asChild>
+                      {/* <Button variant="outline" size="sm" asChild>
                         <Link href="/login">Login</Link>
                       </Button>
                       <Button
@@ -132,6 +148,14 @@ export function Navbar() {
                         className="bg-primary-clr hover:bg-primary-clr/80"
                       >
                         <Link href="/signup">Sign Up</Link>
+                      </Button> */}
+                      <Button
+                        asChild
+                        className="w-full bg-primary-clr hover:bg-primary-clr/80 text-white"
+                      >
+                        <Link href="/courses/survey">
+                          Apply Now <ArrowRight className="ml-2 h-4 w-4" />
+                        </Link>
                       </Button>
                     </div>
                   </div>

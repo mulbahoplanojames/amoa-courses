@@ -18,6 +18,7 @@ export type Course = {
     avatar: string | null;
   };
   price: string;
+  docs?: string;
   modules: Module[];
   quizzes: Quiz[];
 };
