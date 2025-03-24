@@ -60,10 +60,10 @@ export function Navbar() {
               key={route.href}
               href={route.href}
               className={cn(
-                "flex items-center text-base font-medium transition-colors hover:text-primary-clr",
+                "flex items-center text-base font-medium transition-colors hover:text-primary-clr ",
                 route.active
                   ? "text-primary-clr border-b-2 border-primary-clr"
-                  : "text-muted-foreground"
+                  : "text-muted-foreground dark:text-white"
               )}
             >
               {route.label}
@@ -78,7 +78,7 @@ export function Navbar() {
             <Button
               size="sm"
               asChild
-              className="bg-primary-clr hover:bg-primary-clr/80"
+              className="bg-primary-clr hover:bg-primary-clr/80 dark:text-white"
             >
               <Link href="/signup">Sign Up</Link>
             </Button>

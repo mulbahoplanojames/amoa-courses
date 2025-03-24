@@ -25,7 +25,7 @@ const HomeHero = () => {
                 <Button
                   asChild
                   size="lg"
-                  className="bg-white text-primary hover:bg-white/90"
+                  className="bg-white text-primary hover:bg-white/90 dark:text-black"
                 >
                   <Link href="/quizzes">Start Learning Now</Link>
                 </Button>

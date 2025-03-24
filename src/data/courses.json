@@ -3,11 +3,11 @@
     "id": 1,
     "title": "Front-End Developer",
     "slug": "front-end-developer",
-    "description": "Comprehensive training in modern front-end development including React, Vue.js, and state management patterns.",
+    "description": "Comprehensive training in modern front-end development including HTML, CSS, JavaScript, React, and state management patterns.",
     "image": "https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
     "category": "Web Development",
     "startDate": "April 12, 2024",
-    "level": "Intermediate",
+    "level": "Beginner",
     "duration": "10 weeks",
     "totalHours": 35,
     "students": 18,
@@ -23,27 +23,98 @@
     "modules": [
       {
         "id": 1,
-        "title": "Modern JavaScript Frameworks",
-        "description": "Deep dive into React ecosystem",
-        "duration": "5 hours",
+        "title": "HTML Basics",
+        "description": "Learn the fundamentals of HTML structure and elements.",
+        "duration": "10 hours and more",
         "lessons": [
           {
             "id": 1,
-            "title": "React Components & Props",
-            "type": "video",
-            "duration": "30 min",
+            "title": "Introduction to HTML",
+            "type": "text",
+            "duration": "45 min",
             "isCompleted": false
           },
           {
             "id": 2,
-            "title": "State Management with Redux",
+            "title": "HTML Forms and Tables",
             "type": "interactive",
             "duration": "1 hour",
             "isCompleted": false
           },
           {
             "id": 3,
-            "title": "React Hooks Deep Dive",
+            "title": "Semantic HTML",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 4,
+            "title": "HTML5 Features",
+            "type": "video",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Best Practices for HTML",
+            "type": "interactive",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "SEO and Accessibility in HTML",
+            "type": "text",
+            "duration": "30 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "CSS Intermediate",
+        "description": "Master styling techniques, flexbox, and grid.",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 7,
+            "title": "CSS Selectors and Specificity",
+            "type": "interactive",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 8,
+            "title": "Flexbox and Grid Layouts",
+            "type": "interactive",
+            "duration": "2.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 9,
+            "title": "CSS Animations",
+            "type": "text",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 10,
+            "title": "CSS Variables and Custom Properties",
+            "type": "video",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 11,
+            "title": "Advanced Responsive Design",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 12,
+            "title": "CSS Frameworks Overview",
             "type": "text",
             "duration": "45 min",
             "isCompleted": false
@@ -51,30 +122,101 @@
         ]
       },
       {
-        "id": 2,
-        "title": "Advanced CSS Techniques",
-        "description": "Master CSS Grid and animations",
-        "duration": "4 hours",
+        "id": 3,
+        "title": "JavaScript Basics",
+        "description": "Understand JavaScript fundamentals and DOM manipulation.",
+        "duration": "23 hours and more",
         "lessons": [
           {
-            "id": 4,
-            "title": "CSS Custom Properties",
-            "type": "video",
-            "duration": "25 min",
+            "id": 13,
+            "title": "Variables and Data Types",
+            "type": "interactive",
+            "duration": "1.5 hours",
             "isCompleted": false
           },
           {
-            "id": 5,
-            "title": "Animations with Keyframes",
+            "id": 14,
+            "title": "Functions and Scope",
             "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 15,
+            "title": "DOM Manipulation",
+            "type": "text",
+            "duration": "3.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 16,
+            "title": "ES6 Features",
+            "type": "video",
+            "duration": "2 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 17,
+            "title": "Asynchronous JavaScript",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 18,
+            "title": "Error Handling and Debugging",
+            "type": "text",
             "duration": "45 min",
             "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "React.js Fundamentals",
+        "description": "Learn the basics of React.js and building components.",
+        "duration": "25 hours and more",
+        "lessons": [
+          {
+            "id": 19,
+            "title": "Introduction to React",
+            "type": "text",
+            "duration": "40 min",
+            "isCompleted": false
           },
           {
-            "id": 6,
-            "title": "Responsive Design Patterns",
-            "type": "text",
-            "duration": "30 min",
+            "id": 20,
+            "title": "React Components & Props",
+            "type": "interactive",
+            "duration": "1 hour",
+            "isCompleted": false
+          },
+          {
+            "id": 21,
+            "title": "State Management",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 22,
+            "title": "React Hooks",
+            "type": "video",
+            "duration": "2.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 23,
+            "title": "React Router",
+            "type": "interactive",
+            "duration": "1 hour",
+            "isCompleted": false
+          },
+          {
+            "id": 24,
+            "title": "Handling Forms in React",
+            "type": "interactive",
+            "duration": "1.5 hours",
             "isCompleted": false
           }
         ]
@@ -83,24 +225,36 @@
     "quizzes": [
       {
         "id": 1,
-        "title": "React Fundamentals Quiz",
-        "questions": 15,
-        "duration": "20 minutes"
+        "title": "HTML Basics Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
       },
       {
         "id": 2,
         "title": "CSS Mastery Quiz",
         "questions": 10,
         "duration": "15 minutes"
+      },
+      {
+        "id": 3,
+        "title": "JavaScript Essentials Quiz",
+        "questions": 15,
+        "duration": "20 minutes"
+      },
+      {
+        "id": 4,
+        "title": "React.js Fundamentals Quiz",
+        "questions": 15,
+        "duration": "20 minutes"
       }
     ],
-    "prerequisites": ["HTML & CSS Fundamentals", "Basic JavaScript Knowledge"],
+    "prerequisites": ["Basic Computer Literacy", "Interest in Web Development"],
     "whatYouWillLearn": [
-      "Build React applications",
-      "Implement state management",
-      "Create responsive layouts",
-      "Optimize front-end performance",
-      "Work with CSS-in-JS"
+      "Create structured web pages with HTML",
+      "Style web applications using CSS techniques",
+      "Develop interactive web pages with JavaScript",
+      "Build dynamic applications with React.js",
+      "Utilize advanced React.js features for full-stack applications"
     ]
   },
 
