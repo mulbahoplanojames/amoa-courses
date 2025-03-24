@@ -260,9 +260,9 @@
 
   {
     "id": 2,
-    "title": "Back-End Developer",
+    "title": "Back-End Development with Python",
     "slug": "back-end-developer",
-    "description": "Master server-side development with Node.js, databases, and cloud infrastructure. Learn to build secure, scalable APIs and services.",
+    "description": "Master server-side development with Python, databases, and cloud infrastructure. Learn to build secure, scalable APIs and services.",
     "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
     "category": "Programming",
     "startDate": "May 10, 2024",
@@ -282,27 +282,27 @@
     "modules": [
       {
         "id": 1,
-        "title": "Database Management",
-        "description": "Working with SQL and NoSQL databases",
+        "title": "Introduction to Backend Development",
+        "description": "Get introduced to backend development and the role of Python in web applications. Learn how to set up your development environment and understand the basics of backend work.",
         "duration": "6 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "PostgreSQL Optimization",
+            "title": "What is Backend Development?",
             "type": "video",
             "duration": "35 min",
             "isCompleted": false
           },
           {
             "id": 2,
-            "title": "MongoDB Schema Design",
+            "title": "Overview of Python for Backend Development",
             "type": "interactive",
             "duration": "1 hour",
             "isCompleted": false
           },
           {
             "id": 3,
-            "title": "Database Indexing Strategies",
+            "title": "Setting up Your Development Environment",
             "type": "text",
             "duration": "25 min",
             "isCompleted": false
@@ -311,27 +311,237 @@
       },
       {
         "id": 2,
-        "title": "Cloud Infrastructure",
-        "description": "Deploying to AWS and Azure",
+        "title": "Python Basics for Backend Development",
+        "description": "Cover the essential Python concepts such as syntax, data structures, and object-oriented programming, which are foundational for backend development",
         "duration": "5 hours",
         "lessons": [
           {
             "id": 4,
-            "title": "AWS Lambda Functions",
+            "title": "Python Syntax Refresher",
             "type": "video",
             "duration": "30 min",
             "isCompleted": false
           },
           {
             "id": 5,
-            "title": "Container Orchestration",
+            "title": "Working with Data Structures",
             "type": "interactive",
             "duration": "1.5 hours",
             "isCompleted": false
           },
           {
             "id": 6,
-            "title": "CI/CD Pipelines",
+            "title": "Object-Oriented Programming (OOP) in Python",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Web Development with Python",
+        "description": "Learn how to use Flask and Django to build web applications. Understand how these frameworks handle requests, routes, and templates.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Introduction to Web Development",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Flask Framework Basics",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Django Framework Overview",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Databases and Persistence",
+        "description": "Learn to interact with databases using Python. Explore SQLite, Django ORM, and SQLAlchemy to store and retrieve data in your applications.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Introduction to Databases",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Using SQLite with Python",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Django ORM for Database Interaction",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Building RESTful APIs with Python",
+        "description": "Understand how to build and consume RESTful APIs with Flask and Django. Learn about API best practices and how to structure your endpoints.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Introduction to RESTful APIs",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Building a Simple API with Flask",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Django REST Framework (DRF)",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Authentication and Security",
+        "description": "Explore how to implement authentication and secure your backend applications from common web vulnerabilities.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Introduction to Web Security",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Implementing Authentication",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Securing Your Application",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Advanced Backend Concepts",
+        "description": "Dive into advanced topics like asynchronous programming, task queues, and caching to optimize and scale your backend systems.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Asynchronous Programming in Python",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Task Queues and Background Jobs",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Caching and Optimization",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Deployment",
+        "description": "Learn how to deploy your Python backend applications to cloud services and scale them for production environments.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Preparing Your Application for Deployment",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Deploying a Flask Application",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Deploying a Django Application",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 7,
+            "title": "Continuous Integration and Deployment (CI/CD)",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Final Project",
+        "description": "Apply everything you’ve learned by building a complete backend application. This module helps you integrate APIs, databases, and authentication into a real-world project.",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Introduction to Web Development",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Flask Framework Basics",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Django Framework Overview",
             "type": "text",
             "duration": "45 min",
             "isCompleted": false
@@ -341,19 +551,37 @@
     ],
     "quizzes": [
       {
-        "id": 1,
-        "title": "Database Design Quiz",
+        "id": 5,
+        "title": "Python Basics",
         "questions": 12,
         "duration": "18 minutes"
       },
       {
-        "id": 2,
-        "title": "Cloud Deployment Quiz",
+        "id": 6,
+        "title": "Flask Basics",
+        "questions": 5,
+        "duration": "6 minutes"
+      },
+      {
+        "id": 7,
+        "title": "Django Basics",
+        "questions": 8,
+        "duration": "4 minutes"
+      },
+      {
+        "id": 8,
+        "title": "SQL & Databases",
+        "questions": 10,
+        "duration": "5 minutes"
+      },
+      {
+        "id": 8,
+        "title": "Authentication & Security",
         "questions": 10,
         "duration": "15 minutes"
       }
     ],
-    "prerequisites": ["Node.js Fundamentals", "Understanding of REST APIs"],
+    "prerequisites": ["Python Fundamentals", "Understanding of REST APIs"],
     "whatYouWillLearn": [
       "Design database schemas",
       "Implement authentication systems",
@@ -365,7 +593,7 @@
 
   {
     "id": 3,
-    "title": "Python Developer",
+    "title": "Python Development",
     "slug": "python-developer",
     "description": "Become a professional Python developer with comprehensive training in Python programming, web development, data processing, and automation.",
     "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
@@ -387,7 +615,7 @@
     "modules": [
       {
         "id": 1,
-        "title": "Python Core Concepts",
+        "title": "Introduction to Python",
         "description": "Master Python syntax and programming paradigms",
         "duration": "4 hours",
         "lessons": [
@@ -397,45 +625,131 @@
             "type": "video",
             "duration": "25 min",
             "isCompleted": false
-          },
-          {
-            "id": 2,
-            "title": "Object-Oriented Programming",
-            "type": "interactive",
-            "duration": "45 min",
-            "isCompleted": false
-          },
-          {
-            "id": 3,
-            "title": "Decorators and Generators",
-            "type": "text",
-            "duration": "30 min",
-            "isCompleted": false
           }
         ]
       },
       {
         "id": 2,
-        "title": "Web Development with Django",
+        "title": "Basic Concepts of Python",
         "description": "Build web applications using Django framework",
         "duration": "6 hours",
         "lessons": [
           {
             "id": 4,
-            "title": "Django ORM Basics",
+            "title": "Introduction to Python Syntax",
             "type": "video",
             "duration": "35 min",
             "isCompleted": false
           },
           {
             "id": 5,
-            "title": "Building REST APIs",
+            "title": "Introduction to Data Types",
             "type": "interactive",
             "duration": "1.5 hours",
             "isCompleted": false
           },
           {
             "id": 6,
+            "title": "Variables",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 7,
+            "title": "Operators",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 8,
+            "title": "Control flow",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 9,
+            "title": "Functions",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 10,
+            "title": "Data Types",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 11,
+            "title": "File handling",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Intermediate Concepts of Python",
+        "description": "Build web applications using Django framework",
+        "duration": "6 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Object-Oriented Programming",
+            "type": "interactive",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Introduction to Data Types",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Advanced Concepts of Python",
+        "description": "Build web applications using Django framework",
+        "duration": "6 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "Decorators",
+            "type": "interactive",
+            "duration": "45 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Iterators and Generators",
+            "type": "text",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Django ORM Basics",
+            "type": "video",
+            "duration": "35 min",
+            "isCompleted": false
+          },
+          {
+            "id": 7,
+            "title": "Building REST APIs",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 8,
             "title": "Authentication Systems",
             "type": "text",
             "duration": "25 min",
