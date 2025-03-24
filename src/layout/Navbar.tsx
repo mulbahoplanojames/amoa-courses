@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 import { Home, Info, BookOpen, FileQuestion, Menu, X } from "lucide-react";
+import { ThemeModeToggle } from "@/components/ui/theme-toggle";
 // import { AppInitializer } from "@/components/app-initializer";
 
 export function Navbar() {
@@ -81,19 +82,26 @@ export function Navbar() {
             >
               <Link href="/signup">Sign Up</Link>
             </Button>
+            <ThemeModeToggle />
           </div>
           {/* Mobile Navigation */}
-
           <div className="md:hidden flex flex-1 justify-end">
             {isMobileMenuOpen ? (
-              <button onClick={() => setIsMobileMenuOpen(false)}>
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="mr-4"
+              >
                 <X className="h-8 w-8 font-bold text-primary-clr" />
               </button>
             ) : (
-              <button onClick={() => setIsMobileMenuOpen(true)}>
+              <button
+                onClick={() => setIsMobileMenuOpen(true)}
+                className="mr-4"
+              >
                 <Menu className="h-8 w-8 text-primary-clr" />
               </button>
             )}
+            <ThemeModeToggle />
             {isMobileMenuOpen && (
               <div className="absolute top-16 left-0 right-0 bg-background border-b p-4 shadow-lg">
                 <nav className="flex flex-col space-y-4">
