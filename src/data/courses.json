@@ -1,288 +1,80 @@
 [
   {
     "id": 1,
-    "title": "JavaScript Fundamentals",
-    "slug": "javascript-fundamentals",
-    "description": "Learn the core concepts of JavaScript programming language, from basic syntax to advanced features. This course is designed for beginners who want to build a solid foundation in JavaScript programming.",
-    "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    "category": "Programming",
-    "startDate": "April 5, 2024",
-    "level": "Beginner",
-    "duration": "10 weeks",
-    "totalHours": 20,
-    "students": 15,
-    "rating": 4.8,
-    "reviewCount": 325,
-    "instructor": {
-      "name": "Oplano James Mulbah",
-      "title": "JavaScript Developer",
-      "bio": "Oplano has been teaching JavaScript for over 2 years and has worked with companies like Google and Facebook.",
-      "avatar": "/team/oplano.jpeg"
-    },
-    "price": "Free",
-    "modules": [
-      {
-        "id": 1,
-        "title": "Introduction to JavaScript",
-        "description": "Learn about the history and basics of JavaScript",
-        "duration": "2 hours",
-        "lessons": [
-          {
-            "id": 1,
-            "title": "What is JavaScript?",
-            "type": "video",
-            "duration": "10 min",
-            "isCompleted": true
-          },
-          {
-            "id": 2,
-            "title": "Setting Up Your Development Environment",
-            "type": "text",
-            "duration": "15 min",
-            "isCompleted": true
-          },
-          {
-            "id": 3,
-            "title": "Your First JavaScript Program",
-            "type": "interactive",
-            "duration": "20 min",
-            "isCompleted": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "JavaScript Syntax",
-        "description": "Understand the basic syntax and structure of JavaScript",
-        "duration": "3 hours",
-        "lessons": [
-          {
-            "id": 4,
-            "title": "Variables and Data Types",
-            "type": "video",
-            "duration": "15 min",
-            "isCompleted": false
-          },
-          {
-            "id": 5,
-            "title": "Operators",
-            "type": "text",
-            "duration": "20 min",
-            "isCompleted": false
-          },
-          {
-            "id": 6,
-            "title": "Control Flow: Conditionals",
-            "type": "interactive",
-            "duration": "25 min",
-            "isCompleted": false
-          },
-          {
-            "id": 7,
-            "title": "Control Flow: Loops",
-            "type": "video",
-            "duration": "20 min",
-            "isCompleted": false
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Functions and Objects",
-        "description": "Learn about functions, scope, and objects in JavaScript",
-        "duration": "4 hours",
-        "lessons": [
-          {
-            "id": 8,
-            "title": "Function Declarations and Expressions",
-            "type": "video",
-            "duration": "20 min",
-            "isCompleted": false
-          },
-          {
-            "id": 9,
-            "title": "Function Parameters and Return Values",
-            "type": "text",
-            "duration": "15 min",
-            "isCompleted": false
-          },
-          {
-            "id": 10,
-            "title": "Scope and Closures",
-            "type": "interactive",
-            "duration": "30 min",
-            "isCompleted": false
-          },
-          {
-            "id": 11,
-            "title": "Objects and Properties",
-            "type": "video",
-            "duration": "25 min",
-            "isCompleted": false
-          },
-          {
-            "id": 12,
-            "title": "Object Methods",
-            "type": "interactive",
-            "duration": "20 min",
-            "isCompleted": false
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "DOM Manipulation",
-        "description": "Learn how to interact with HTML using JavaScript",
-        "duration": "5 hours",
-        "lessons": [
-          {
-            "id": 13,
-            "title": "Introduction to the DOM",
-            "type": "video",
-            "duration": "15 min",
-            "isCompleted": false
-          },
-          {
-            "id": 14,
-            "title": "Selecting DOM Elements",
-            "type": "text",
-            "duration": "20 min",
-            "isCompleted": false
-          },
-          {
-            "id": 15,
-            "title": "Modifying DOM Elements",
-            "type": "interactive",
-            "duration": "25 min",
-            "isCompleted": false
-          },
-          {
-            "id": 16,
-            "title": "Event Handling",
-            "type": "video",
-            "duration": "30 min",
-            "isCompleted": false
-          },
-          {
-            "id": 17,
-            "title": "Building a Simple App",
-            "type": "project",
-            "duration": "2 hours",
-            "isCompleted": false
-          }
-        ]
-      }
-    ],
-    "quizzes": [
-      {
-        "id": 1,
-        "title": "JavaScript Basics Quiz",
-        "questions": 15,
-        "duration": "20 minutes"
-      },
-      {
-        "id": 2,
-        "title": "Functions and Objects Quiz",
-        "questions": 10,
-        "duration": "15 minutes"
-      },
-      {
-        "id": 3,
-        "title": "DOM Manipulation Quiz",
-        "questions": 12,
-        "duration": "18 minutes"
-      }
-    ],
-    "prerequisites": [
-      "Basic HTML and CSS knowledge",
-      "No prior programming experience required",
-      "A computer with internet access"
-    ],
-    "whatYouWillLearn": [
-      "Understand JavaScript syntax and basic programming concepts",
-      "Create interactive web pages using JavaScript",
-      "Work with variables, data types, functions, and objects",
-      "Manipulate the DOM to update HTML content dynamically",
-      "Handle user events and create responsive interfaces",
-      "Debug JavaScript code effectively"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Advanced Web Development",
-    "slug": "advanced-web-development",
-    "description": "Master modern web development techniques including server-side rendering, API development, and performance optimization. Learn to build scalable applications using cutting-edge technologies.",
-    "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80",
+    "title": "Front-End Developer",
+    "slug": "front-end-developer",
+    "description": "Comprehensive training in modern front-end development including React, Vue.js, and state management patterns.",
+    "image": "https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
     "category": "Web Development",
     "startDate": "April 12, 2024",
-    "level": "Advanced",
-    "duration": "9 weeks",
+    "level": "Intermediate",
+    "duration": "10 weeks",
     "totalHours": 35,
-    "students": 10,
-    "rating": 4.7,
-    "reviewCount": 210,
+    "students": 18,
+    "rating": 4.8,
+    "reviewCount": 395,
     "instructor": {
-      "name": "Oplano James Mulbah",
-      "title": "Full-Stack Architect",
-      "bio": "Sarah has 10+ years experience building enterprise applications for Fortune 500 companies.",
-      "avatar": "/team/oplano.jpeg"
+      "name": "SUGIRA NGENDAHAYO Salomon",
+      "title": "Front-End Engineering Manager",
+      "bio": "Led front-end teams at AMOA Tech",
+      "avatar": "/team/solo.jpeg"
     },
     "price": "$20.00",
     "modules": [
       {
         "id": 1,
-        "title": "Modern Web Architecture",
-        "description": "Understanding microservices and cloud-native development",
-        "duration": "3 hours",
+        "title": "Modern JavaScript Frameworks",
+        "description": "Deep dive into React ecosystem",
+        "duration": "5 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "Microservices Fundamentals",
+            "title": "React Components & Props",
             "type": "video",
-            "duration": "20 min",
+            "duration": "30 min",
             "isCompleted": false
           },
           {
             "id": 2,
-            "title": "Containerization with Docker",
+            "title": "State Management with Redux",
             "type": "interactive",
-            "duration": "45 min",
+            "duration": "1 hour",
             "isCompleted": false
           },
           {
             "id": 3,
-            "title": "Kubernetes Basics",
+            "title": "React Hooks Deep Dive",
             "type": "text",
-            "duration": "30 min",
+            "duration": "45 min",
             "isCompleted": false
           }
         ]
       },
       {
         "id": 2,
-        "title": "Advanced API Development",
-        "description": "Building RESTful and GraphQL APIs",
-        "duration": "5 hours",
+        "title": "Advanced CSS Techniques",
+        "description": "Master CSS Grid and animations",
+        "duration": "4 hours",
         "lessons": [
           {
             "id": 4,
-            "title": "JWT Authentication",
+            "title": "CSS Custom Properties",
             "type": "video",
             "duration": "25 min",
             "isCompleted": false
           },
           {
             "id": 5,
-            "title": "GraphQL Schema Design",
+            "title": "Animations with Keyframes",
             "type": "interactive",
-            "duration": "1 hour",
+            "duration": "45 min",
             "isCompleted": false
           },
           {
             "id": 6,
-            "title": "API Rate Limiting",
+            "title": "Responsive Design Patterns",
             "type": "text",
-            "duration": "20 min",
+            "duration": "30 min",
             "isCompleted": false
           }
         ]
@@ -291,28 +83,129 @@
     "quizzes": [
       {
         "id": 1,
-        "title": "Architecture Patterns Quiz",
-        "questions": 10,
-        "duration": "15 minutes"
+        "title": "React Fundamentals Quiz",
+        "questions": 15,
+        "duration": "20 minutes"
       },
       {
         "id": 2,
-        "title": "API Security Quiz",
-        "questions": 12,
-        "duration": "20 minutes"
+        "title": "CSS Mastery Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
       }
     ],
-    "prerequisites": [
-      "JavaScript Fundamentals",
-      "Basic understanding of Node.js",
-      "Experience with REST APIs"
-    ],
+    "prerequisites": ["HTML & CSS Fundamentals", "Basic JavaScript Knowledge"],
     "whatYouWillLearn": [
-      "Build server-side rendered applications",
-      "Implement JWT authentication",
-      "Optimize web performance",
-      "Containerize applications with Docker",
-      "Develop GraphQL APIs"
+      "Build React applications",
+      "Implement state management",
+      "Create responsive layouts",
+      "Optimize front-end performance",
+      "Work with CSS-in-JS"
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Back-End Developer",
+    "slug": "back-end-developer",
+    "description": "Master server-side development with Node.js, databases, and cloud infrastructure. Learn to build secure, scalable APIs and services.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "category": "Programming",
+    "startDate": "May 10, 2024",
+    "level": "Advanced",
+    "duration": "8 weeks",
+    "totalHours": 45,
+    "students": 950,
+    "rating": 4.7,
+    "reviewCount": 275,
+    "instructor": {
+      "name": "Abdallah Aleer",
+      "title": "Cloud Infrastructure Architect",
+      "bio": "Designed AWS-based systems handling 100+ daily requests",
+      "avatar": "/team/abdo.jpeg"
+    },
+    "price": "$20.00",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Database Management",
+        "description": "Working with SQL and NoSQL databases",
+        "duration": "6 hours",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "PostgreSQL Optimization",
+            "type": "video",
+            "duration": "35 min",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "title": "MongoDB Schema Design",
+            "type": "interactive",
+            "duration": "1 hour",
+            "isCompleted": false
+          },
+          {
+            "id": 3,
+            "title": "Database Indexing Strategies",
+            "type": "text",
+            "duration": "25 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Cloud Infrastructure",
+        "description": "Deploying to AWS and Azure",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 4,
+            "title": "AWS Lambda Functions",
+            "type": "video",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Container Orchestration",
+            "type": "interactive",
+            "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "CI/CD Pipelines",
+            "type": "text",
+            "duration": "45 min",
+            "isCompleted": false
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": 1,
+        "title": "Database Design Quiz",
+        "questions": 12,
+        "duration": "18 minutes"
+      },
+      {
+        "id": 2,
+        "title": "Cloud Deployment Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
+      }
+    ],
+    "prerequisites": ["Node.js Fundamentals", "Understanding of REST APIs"],
+    "whatYouWillLearn": [
+      "Design database schemas",
+      "Implement authentication systems",
+      "Deploy serverless applications",
+      "Monitor application performance",
+      "Secure backend APIs"
     ]
   },
 
@@ -534,80 +427,173 @@
 
   {
     "id": 5,
-    "title": "Front-End Developer",
-    "slug": "front-end-developer",
-    "description": "Comprehensive training in modern front-end development including React, Vue.js, and state management patterns.",
-    "image": "https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    "category": "Web Development",
-    "startDate": "April 12, 2024",
-    "level": "Intermediate",
+    "title": "JavaScript Fundamentals",
+    "slug": "javascript-fundamentals",
+    "description": "Learn the core concepts of JavaScript programming language, from basic syntax to advanced features. This course is designed for beginners who want to build a solid foundation in JavaScript programming.",
+    "image": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "category": "Programming",
+    "startDate": "April 5, 2024",
+    "level": "Beginner",
     "duration": "10 weeks",
-    "totalHours": 35,
-    "students": 18,
+    "totalHours": 20,
+    "students": 15,
     "rating": 4.8,
-    "reviewCount": 395,
+    "reviewCount": 325,
     "instructor": {
-      "name": "SUGIRA NGENDAHAYO Salomon",
-      "title": "Front-End Engineering Manager",
-      "bio": "Led front-end teams at AMOA Tech",
-      "avatar": "/team/solo.jpeg"
+      "name": "Oplano James Mulbah",
+      "title": "JavaScript Developer",
+      "bio": "Oplano has been teaching JavaScript for over 2 years and has worked with companies like Google and Facebook.",
+      "avatar": "/team/oplano.jpeg"
     },
     "price": "$20.00",
     "modules": [
       {
         "id": 1,
-        "title": "Modern JavaScript Frameworks",
-        "description": "Deep dive into React ecosystem",
-        "duration": "5 hours",
+        "title": "Introduction to JavaScript",
+        "description": "Learn about the history and basics of JavaScript",
+        "duration": "2 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "React Components & Props",
+            "title": "What is JavaScript?",
             "type": "video",
-            "duration": "30 min",
-            "isCompleted": false
+            "duration": "10 min",
+            "isCompleted": true
           },
           {
             "id": 2,
-            "title": "State Management with Redux",
-            "type": "interactive",
-            "duration": "1 hour",
-            "isCompleted": false
+            "title": "Setting Up Your Development Environment",
+            "type": "text",
+            "duration": "15 min",
+            "isCompleted": true
           },
           {
             "id": 3,
-            "title": "React Hooks Deep Dive",
-            "type": "text",
-            "duration": "45 min",
+            "title": "Your First JavaScript Program",
+            "type": "interactive",
+            "duration": "20 min",
             "isCompleted": false
           }
         ]
       },
       {
         "id": 2,
-        "title": "Advanced CSS Techniques",
-        "description": "Master CSS Grid and animations",
-        "duration": "4 hours",
+        "title": "JavaScript Syntax",
+        "description": "Understand the basic syntax and structure of JavaScript",
+        "duration": "3 hours",
         "lessons": [
           {
             "id": 4,
-            "title": "CSS Custom Properties",
+            "title": "Variables and Data Types",
+            "type": "video",
+            "duration": "15 min",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Operators",
+            "type": "text",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Control Flow: Conditionals",
+            "type": "interactive",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 7,
+            "title": "Control Flow: Loops",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Functions and Objects",
+        "description": "Learn about functions, scope, and objects in JavaScript",
+        "duration": "4 hours",
+        "lessons": [
+          {
+            "id": 8,
+            "title": "Function Declarations and Expressions",
+            "type": "video",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 9,
+            "title": "Function Parameters and Return Values",
+            "type": "text",
+            "duration": "15 min",
+            "isCompleted": false
+          },
+          {
+            "id": 10,
+            "title": "Scope and Closures",
+            "type": "interactive",
+            "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 11,
+            "title": "Objects and Properties",
             "type": "video",
             "duration": "25 min",
             "isCompleted": false
           },
           {
-            "id": 5,
-            "title": "Animations with Keyframes",
+            "id": 12,
+            "title": "Object Methods",
             "type": "interactive",
-            "duration": "45 min",
+            "duration": "20 min",
+            "isCompleted": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "DOM Manipulation",
+        "description": "Learn how to interact with HTML using JavaScript",
+        "duration": "5 hours",
+        "lessons": [
+          {
+            "id": 13,
+            "title": "Introduction to the DOM",
+            "type": "video",
+            "duration": "15 min",
             "isCompleted": false
           },
           {
-            "id": 6,
-            "title": "Responsive Design Patterns",
+            "id": 14,
+            "title": "Selecting DOM Elements",
             "type": "text",
+            "duration": "20 min",
+            "isCompleted": false
+          },
+          {
+            "id": 15,
+            "title": "Modifying DOM Elements",
+            "type": "interactive",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 16,
+            "title": "Event Handling",
+            "type": "video",
             "duration": "30 min",
+            "isCompleted": false
+          },
+          {
+            "id": 17,
+            "title": "Building a Simple App",
+            "type": "project",
+            "duration": "2 hours",
             "isCompleted": false
           }
         ]
@@ -616,103 +602,114 @@
     "quizzes": [
       {
         "id": 1,
-        "title": "React Fundamentals Quiz",
+        "title": "JavaScript Basics Quiz",
         "questions": 15,
         "duration": "20 minutes"
       },
       {
         "id": 2,
-        "title": "CSS Mastery Quiz",
+        "title": "Functions and Objects Quiz",
         "questions": 10,
         "duration": "15 minutes"
+      },
+      {
+        "id": 3,
+        "title": "DOM Manipulation Quiz",
+        "questions": 12,
+        "duration": "18 minutes"
       }
     ],
-    "prerequisites": ["HTML & CSS Fundamentals", "Basic JavaScript Knowledge"],
+    "prerequisites": [
+      "Basic HTML and CSS knowledge",
+      "No prior programming experience required",
+      "A computer with internet access"
+    ],
     "whatYouWillLearn": [
-      "Build React applications",
-      "Implement state management",
-      "Create responsive layouts",
-      "Optimize front-end performance",
-      "Work with CSS-in-JS"
+      "Understand JavaScript syntax and basic programming concepts",
+      "Create interactive web pages using JavaScript",
+      "Work with variables, data types, functions, and objects",
+      "Manipulate the DOM to update HTML content dynamically",
+      "Handle user events and create responsive interfaces",
+      "Debug JavaScript code effectively"
     ]
   },
 
   {
     "id": 6,
-    "title": "Back-End Developer",
-    "slug": "back-end-developer",
-    "description": "Master server-side development with Node.js, databases, and cloud infrastructure. Learn to build secure, scalable APIs and services.",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    "category": "Programming",
-    "startDate": "May 10, 2024",
+    "title": "Advanced Web Development",
+    "slug": "advanced-web-development",
+    "description": "Master modern web development techniques including server-side rendering, API development, and performance optimization. Learn to build scalable applications using cutting-edge technologies.",
+    "image": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80",
+    "category": "Web Development",
+    "startDate": "April 12, 2024",
     "level": "Advanced",
-    "duration": "8 weeks",
-    "totalHours": 45,
-    "students": 950,
+    "duration": "9 weeks",
+    "totalHours": 35,
+    "students": 10,
     "rating": 4.7,
-    "reviewCount": 275,
+    "reviewCount": 210,
     "instructor": {
-      "name": "Abdallah Aleer",
-      "title": "Cloud Infrastructure Architect",
-      "bio": "Designed AWS-based systems handling 100+ daily requests",
-      "avatar": "/team/abdo.jpeg"
+      "name": "Oplano James Mulbah",
+      "title": "Full-Stack Architect",
+      "bio": "Sarah has 10+ years experience building enterprise applications for Fortune 500 companies.",
+      "avatar": "/team/oplano.jpeg"
     },
     "price": "$20.00",
     "modules": [
       {
         "id": 1,
-        "title": "Database Management",
-        "description": "Working with SQL and NoSQL databases",
-        "duration": "6 hours",
+        "title": "Modern Web Architecture",
+        "description": "Understanding microservices and cloud-native development",
+        "duration": "3 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "PostgreSQL Optimization",
+            "title": "Microservices Fundamentals",
             "type": "video",
-            "duration": "35 min",
+            "duration": "20 min",
             "isCompleted": false
           },
           {
             "id": 2,
-            "title": "MongoDB Schema Design",
+            "title": "Containerization with Docker",
             "type": "interactive",
-            "duration": "1 hour",
+            "duration": "45 min",
             "isCompleted": false
           },
           {
             "id": 3,
-            "title": "Database Indexing Strategies",
+            "title": "Kubernetes Basics",
             "type": "text",
-            "duration": "25 min",
+            "duration": "30 min",
             "isCompleted": false
           }
         ]
       },
       {
         "id": 2,
-        "title": "Cloud Infrastructure",
-        "description": "Deploying to AWS and Azure",
+        "title": "Advanced API Development",
+        "description": "Building RESTful and GraphQL APIs",
         "duration": "5 hours",
         "lessons": [
           {
             "id": 4,
-            "title": "AWS Lambda Functions",
+            "title": "JWT Authentication",
             "type": "video",
-            "duration": "30 min",
+            "duration": "25 min",
             "isCompleted": false
           },
           {
             "id": 5,
-            "title": "Container Orchestration",
+            "title": "GraphQL Schema Design",
             "type": "interactive",
-            "duration": "1.5 hours",
+            "duration": "1 hour",
             "isCompleted": false
           },
           {
             "id": 6,
-            "title": "CI/CD Pipelines",
+            "title": "API Rate Limiting",
             "type": "text",
-            "duration": "45 min",
+            "duration": "20 min",
             "isCompleted": false
           }
         ]
@@ -721,24 +718,28 @@
     "quizzes": [
       {
         "id": 1,
-        "title": "Database Design Quiz",
-        "questions": 12,
-        "duration": "18 minutes"
+        "title": "Architecture Patterns Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
       },
       {
         "id": 2,
-        "title": "Cloud Deployment Quiz",
-        "questions": 10,
-        "duration": "15 minutes"
+        "title": "API Security Quiz",
+        "questions": 12,
+        "duration": "20 minutes"
       }
     ],
-    "prerequisites": ["Node.js Fundamentals", "Understanding of REST APIs"],
+    "prerequisites": [
+      "JavaScript Fundamentals",
+      "Basic understanding of Node.js",
+      "Experience with REST APIs"
+    ],
     "whatYouWillLearn": [
-      "Design database schemas",
-      "Implement authentication systems",
-      "Deploy serverless applications",
-      "Monitor application performance",
-      "Secure backend APIs"
+      "Build server-side rendered applications",
+      "Implement JWT authentication",
+      "Optimize web performance",
+      "Containerize applications with Docker",
+      "Develop GraphQL APIs"
     ]
   }
 ]

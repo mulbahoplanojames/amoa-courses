@@ -4,7 +4,7 @@ import Link from "next/link";
 const AboutHero = () => {
   return (
     <>
-      <section className="bg-gradient-to-r from-primary/90 to-primary py-20 text-white">
+      <section className=" dark:bg-red-500 bg-gradient-to-r from-primary/90 to-primary py-20 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">

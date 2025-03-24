@@ -52,7 +52,7 @@ const CoursesPage = () => {
     return matchesSearch && matchesCategory && matchesLevel;
   });
   return (
-    <div className="bg-white min-h-screen">
+    <div className="dark:bg-[#09090b] bg-white min-h-screen">
       <CoursesHero />
       <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         {/* Search and Filter */}

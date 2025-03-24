@@ -31,7 +31,7 @@ const CourseQuizzes = ({ course }: { course: Course }) => {
                   </div>
                 </div>
                 <Link
-                  href={`/quizzes/${quiz.id}`}
+                  href={`/quiz/${quiz.id}`}
                   className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700"
                 >
                   Take Quiz

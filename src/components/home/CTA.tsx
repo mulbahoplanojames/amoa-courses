@@ -5,7 +5,7 @@ import Link from "next/link";
 const CTA = () => {
   return (
     <>
-      <section className="py-20 bg-primary text-white">
+      <section className="py-20 bg-primary dark:bg-gray-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Accelerate Your Learning?
@@ -18,7 +18,7 @@ const CTA = () => {
             <Button
               asChild
               size="lg"
-              className="bg-white text-primary hover:bg-white/90"
+              className="bg-white text-primary dark:text-black hover:bg-white/90"
             >
               <Link href="/quizzes">Start Learning Now</Link>
             </Button>

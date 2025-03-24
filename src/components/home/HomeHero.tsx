@@ -6,8 +6,8 @@ import Link from "next/link";
 const HomeHero = () => {
   return (
     <>
-      <section className="relative bg-gradient-to-r from-primary/90 to-primary py-20 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-grid-white/10 [mask-image:linear-gradient(to_bottom,transparent,black)]"></div>
+      <section className="relative bg-gradient-to-r from-primary/90 to-primary py-20 text-white overflow-hidden ">
+        <div className="absolute inset-0 bg-grid-white/10  [mask-image:linear-gradient(to_bottom,transparent,black)] dark:bg-black"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">

@@ -199,6 +199,47 @@ export const quizzes: Quiz[] = [
     popularity: 82,
     completions: 820,
   },
+  //! quiz three
+  {
+    id: "4",
+    title: "CSS GRID",
+    description: "Test your knowledge of CSS Flexbox layout",
+    category: "Web Development",
+    difficulty: "Beginner",
+    timeEstimate: "10 min",
+    time: 10,
+    questions: [
+      {
+        id: "3-1",
+        type: "multiple-choice",
+        question:
+          "Which property is used to define the main axis of a flex container?",
+        options: [
+          "flex-direction",
+          "justify-content",
+          "align-items",
+          "flex-wrap",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "flex-direction establishes the main axis, defining the direction flex items are placed in the flex container.",
+      },
+      {
+        id: "3-2",
+        type: "multiple-choice",
+        question:
+          "Which value of justify-content aligns flex items at the center of the container?",
+        options: ["flex-start", "flex-end", "center", "space-between"],
+        correctAnswer: "2",
+        explanation:
+          "The center value of justify-content aligns flex items at the center of the main axis.",
+      },
+    ],
+    createdAt: "2023-03-01T00:00:00.000Z",
+    updatedAt: "2023-03-01T00:00:00.000Z",
+    popularity: 82,
+    completions: 820,
+  },
 ];
 
 // Helper functions to work with quizzes
