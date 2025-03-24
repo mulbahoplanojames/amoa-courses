@@ -18,7 +18,7 @@ const CourseContent = ({
 }) => {
   return (
     <>
-      <div className="mb-8 overflow-hidden bg-white rounded-lg shadow">
+      <div className="mb-8 overflow-hidden dark:transition-shadow bg-white  rounded-lg shadow">
         <div className="p-6">
           <h2 className="text-xl font-bold text-gray-900">Course Content</h2>
           <div className="flex items-center mt-2 text-sm text-gray-500">

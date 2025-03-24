@@ -23,7 +23,7 @@ const CourseHeader = ({
 }) => {
   return (
     <>
-      <div className="bg-gradient-to-r from-primary/90 to-primary md:py-10 py-2 text-white">
+      <div className="bg-gradient-to-r from-primary/90 to-primary dark:bg-gradient-to-r dark:from-slate-900/80 dark:to-black md:py-10 py-2 text-white">
         <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="lg:flex lg:items-center lg:justify-between">
             <div className="lg:flex-1">

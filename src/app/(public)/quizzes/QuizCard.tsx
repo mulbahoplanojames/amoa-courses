@@ -105,7 +105,7 @@ const QuizCard: React.FC<QuizCardProps> = ({
         <CardFooter className="pt-2">
           <Button
             asChild
-            className="w-full bg-primary-clr hover:bg-primary-clr/80"
+            className="w-full bg-primary-clr hover:bg-primary-clr/80 text-white"
           >
             <Link href={`/quiz/${quiz.id}`}>
               {inProgressQuizIds.includes(quiz.id)

@@ -64,7 +64,7 @@ const CoursesPage = () => {
               </div>
               <input
                 type="text"
-                className="focus:ring-primary-clr border-primary-clr block w-full pl-10 sm:text-sm border-2 rounded-md py-3"
+                className="focus:ring-primary-clr dark:ring-white border-primary-clr dark:border-white block w-full pl-10 sm:text-sm border-2 rounded-md py-3"
                 placeholder="Search courses..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -74,7 +74,7 @@ const CoursesPage = () => {
           <div className="flex space-x-4">
             <div className="relative inline-block text-left">
               <select
-                className="block w-full pl-3 pr-10 py-3 text-base  focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md border-2 border-primary-clr"
+                className="block w-full pl-3 pr-10 py-3 text-base  focus:outline-none focus:ring-indigo-500 dark:ring-white focus:border-indigo-500 dark:border-white sm:text-sm rounded-md border-2 border-primary-clr"
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
               >
@@ -90,7 +90,7 @@ const CoursesPage = () => {
             </div>
             <div className="relative inline-block text-left">
               <select
-                className="block w-full pl-3 pr-10 py-3 text-base  focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md border-2 border-primary-clr"
+                className="block w-full pl-3 pr-10 py-3 text-base  focus:outline-none focus:ring-indigo-500 dark:ring-white focus:border-indigo-500 dark:border-white sm:text-sm rounded-md border-2 border-primary-clr"
                 value={selectedLevel}
                 onChange={(e) => setSelectedLevel(e.target.value)}
               >
@@ -157,7 +157,7 @@ const CoursesPage = () => {
                   </Button>
                   <Button
                     asChild
-                    className="w-full bg-primary-clr hover:bg-primary-clr/80"
+                    className="w-full bg-primary-clr hover:bg-primary-clr/80 text-white"
                   >
                     <Link href="/courses/survey">
                       Apply Now <ArrowRight className="ml-2 h-4 w-4" />

@@ -6,6 +6,7 @@ import CourseQuizzes from "@/components/courses/CourseQuizzes";
 import { Tabs } from "@radix-ui/react-tabs";
 import { TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Image from "next/image";
+import { Card } from "@/components/ui/card";
 
 const SingleCorsePage = async ({
   params,
@@ -33,7 +34,7 @@ const SingleCorsePage = async ({
 
   return (
     <>
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 dark:bg-transparent">
         {/* Course Header */}
         <CourseHeader
           course={course}
@@ -46,21 +47,23 @@ const SingleCorsePage = async ({
             {/* Main Content */}
             <div className="lg:col-span-2">
               {/* What You'll Learn */}
-              <div className="mb-8 overflow-hidden bg-white rounded-lg shadow">
+              <Card className="mb-8 overflow-hidden  transition-shadow rounded-lg shadow ">
                 <div className="p-6">
-                  <h2 className="text-xl font-bold text-gray-900">
+                  <h2 className="text-xl font-bold text-gray-900  dark:text-white">
                     What You&apos;ll Learn
                   </h2>
                   <div className="grid grid-cols-1 gap-4 mt-4 md:grid-cols-2">
                     {course.whatYouWillLearn.map((item, index) => (
                       <div key={index} className="flex">
                         <CheckCircleIcon className="flex-shrink-0 w-6 h-6 mr-2 text-green-500" />
-                        <span className="text-gray-700">{item}</span>
+                        <span className="text-gray-700 dark:text-white">
+                          {item}
+                        </span>
                       </div>
                     ))}
                   </div>
                 </div>
-              </div>
+              </Card>
               <Tabs defaultValue="Course-Content" className="w-full">
                 <TabsList className="w-full mb-4">
                   <TabsTrigger value="Course-Content">
@@ -69,11 +72,9 @@ const SingleCorsePage = async ({
                   <TabsTrigger value="Course-Password">Quizzes</TabsTrigger>
                 </TabsList>
                 <TabsContent value="Course-Content">
-                  {/* Course Content */}
                   <CourseContent course={course} totalLessons={totalLessons} />
                 </TabsContent>
                 <TabsContent value="Course-Password">
-                  {/* Quizzes */}
                   <CourseQuizzes course={course} />
                 </TabsContent>
               </Tabs>
