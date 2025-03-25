@@ -703,16 +703,65 @@
         "lessons": [
           {
             "id": 4,
-            "title": "Object-Oriented Programming",
+            "title": "Lambda Functions",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 5,
+            "title": "Decorators",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 4,
+            "title": "Exception Handling",
             "type": "interactive",
             "duration": "45 min",
             "isCompleted": false
           },
           {
             "id": 5,
-            "title": "Introduction to Data Types",
+            "title": "Object-Oriented Programming (OOP) in Python",
             "type": "interactive",
             "duration": "1.5 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 6,
+            "title": "Context Managers and `with` Statement",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 7,
+            "title": "Context Managers and `with` Statement 1",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 8,
+            "title": "Context Managers and `with` Statement 2",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 9,
+            "title": "Context Managers and `with` Statement 3",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 10,
+            "title": "Context Managers and `with` Statement 4",
+            "type": "interactive",
+            "duration": "1.8 hours",
             "isCompleted": false
           }
         ]
