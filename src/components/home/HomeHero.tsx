@@ -3,6 +3,29 @@ import React from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
 
+const users = [
+  {
+    id: 1,
+    image: "/clients/testimo1.jpg",
+    name: "John Doe",
+  },
+  {
+    id: 2,
+    image: "/clients/testimo2.jpg",
+    name: "Jane Doe",
+  },
+  {
+    id: 3,
+    image: "/clients/testimo3.jpg",
+    name: "John Doe",
+  },
+  {
+    id: 4,
+    image: "/clients/testimo4.jpg",
+    name: "Jane Doe",
+  },
+];
+
 const HomeHero = () => {
   return (
     <>
@@ -39,20 +62,22 @@ const HomeHero = () => {
               </div>
               <div className="flex items-center gap-4 text-sm">
                 <div className="flex -space-x-2">
-                  {[1, 2, 3, 4].map((i) => (
+                  {users.map((user) => (
                     <div
-                      key={i}
-                      className="w-8 h-8 rounded-full bg-primary-foreground flex items-center justify-center border-2 border-primary"
+                      key={user.id}
+                      className="w-8 h-8 rounded-full bg-primary-foreground flex items-center justify-center border-2 border-primary relative"
                     >
-                      <span className="text-xs font-medium text-primary">
-                        U{i}
-                      </span>
+                      <Image
+                        src={user.image}
+                        alt={user.name}
+                        className="rounded-full object-contain"
+                        width={32}
+                        height={32}
+                      />
                     </div>
                   ))}
                 </div>
-                <span className="text-white/80">
-                  Join 10,000+ learners today
-                </span>
+                <span className="text-white/80">Join 50+ learners today</span>
               </div>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-2xl hidden lg:block">
