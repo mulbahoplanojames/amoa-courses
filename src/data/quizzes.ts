@@ -771,7 +771,453 @@ export const quizzes: Quiz[] = [
     completions: 1200,
   },
   //! /*--------------------------------------- quiz five--------------------------------------------- */
+  {
+    id: "5",
+    title: "Python Basics Quiz",
+    description:
+      "Test your knowledge of React.js fundamentals and core concepts.",
+    category: "Programming",
+    difficulty: "Beginner",
+    timeEstimate: "20 min",
+    time: 20,
+    questions: [
+      {
+        id: "4-1",
+        type: "multiple-choice",
+        question: "What is React?",
+        options: [
+          "A programming language",
+          "A database management system",
+          "A JavaScript library for building user interfaces",
+
+          "A framework for server-side development",
+        ],
+        correctAnswer: "2",
+        explanation:
+          "React is a JavaScript library for building user interfaces, primarily for single-page applications.",
+      },
+      {
+        id: "4-2",
+        type: "multiple-choice",
+        question:
+          "What is the purpose of the 'render' method in a React component?",
+        options: [
+          "To return the JSX that defines the UI",
+          "To handle events",
+          "To update the component's state",
+          "To fetch data from an API",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "The 'render' method is used to return the JSX that defines the UI of the component.",
+      },
+      {
+        id: "4-3",
+        type: "multiple-choice",
+        question:
+          "Which of the following is used to manage state in a functional component?",
+        options: ["this.state", "setState", "useState", "state"],
+        correctAnswer: "2",
+        explanation:
+          "The 'useState' hook is used to manage state in functional components.",
+      },
+      {
+        id: "4-4",
+        type: "multiple-choice",
+        question: "What is JSX?",
+        options: [
+          "A syntax extension for JavaScript",
+          "A type of CSS",
+          "A database query language",
+          "A JavaScript framework",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript.",
+      },
+      {
+        id: "4-5",
+        type: "multiple-choice",
+        question:
+          "How do you pass data from a parent component to a child component in React?",
+        options: ["Using state", "Using props", "Using context", "Using hooks"],
+        correctAnswer: "1",
+        explanation:
+          "Data is passed from a parent component to a child component using props.",
+      },
+      {
+        id: "4-6",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'key' prop in React?",
+        options: [
+          "To manage state",
+          "To uniquely identify elements in a list",
+          "To handle events",
+          "To style components",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "The 'key' prop is used to uniquely identify elements in a list, helping React optimize rendering.",
+      },
+      {
+        id: "4-7",
+        type: "multiple-choice",
+        question:
+          "Which lifecycle method is called after a component is mounted?",
+        options: [
+          "componentDidUpdate",
+          "componentWillMount",
+          "componentDidMount",
+          "componentWillUpdate",
+        ],
+        correctAnswer: "2",
+        explanation:
+          "The 'componentDidMount' lifecycle method is called after a component is mounted.",
+      },
+      {
+        id: "4-8",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'useEffect' hook?",
+        options: [
+          "To perform side effects in functional components",
+          "To manage state",
+          "To handle events",
+          "To render components",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "The 'useEffect' hook is used to perform side effects in functional components, such as data fetching or subscriptions.",
+      },
+      {
+        id: "4-9",
+        type: "multiple-choice",
+        question: "What does the 'setState' method do?",
+        options: [
+          "Renders the component",
+          "Updates the component's state",
+          "Creates a new component",
+          "Fetches data from an API",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "'setState' is used to update the component's state and trigger a re-render.",
+      },
+      {
+        id: "4-10",
+        type: "multiple-choice",
+        question:
+          "Which of the following is a valid way to create a functional component in React?",
+        options: [
+          "const MyComponent = () => { return <div>Hello</div>, }",
+          "function MyComponent() { return <div>Hello</div>; }",
+          "const MyComponent = function() { return <div>Hello</div>; }",
+          "All of the above",
+        ],
+        correctAnswer: "3",
+        explanation:
+          "All of the provided options are valid ways to create a functional component in React.",
+      },
+      {
+        id: "4-11",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'useContext' hook?",
+        options: [
+          "To manage local component state",
+          "To access context values in functional components",
+          "To perform side effects",
+          "To create a new context",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "The 'useContext' hook is used to access context values in functional components.",
+      },
+      {
+        id: "4-12",
+        type: "multiple-choice",
+        question: "Which of the following is true about controlled components?",
+        options: [
+          "Their state is managed by the DOM",
+          "Their state is managed by React",
+          "They cannot be used with forms",
+          "They are always functional components",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "Controlled components are those whose state is managed by React, typically through props.",
+      },
+      {
+        id: "4-13",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'Fragment' component in React?",
+        options: [
+          "To create a new context",
+          "To group multiple elements without adding extra nodes to the DOM",
+          "To manage state",
+          "To handle events",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "The 'Fragment' component is used to group multiple elements without adding extra nodes to the DOM.",
+      },
+      {
+        id: "4-14",
+        type: "multiple-choice",
+        question: "Which of the following is a way to handle events in React?",
+        options: [
+          "Using event listeners directly on DOM elements",
+          "Using the 'onClick' prop",
+          "Using jQuery",
+
+          "Using the 'addEventListener' method",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "In React, events are handled using props like 'onClick' directly on the JSX elements.",
+      },
+      {
+        id: "4-15",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'useReducer' hook?",
+        options: [
+          "To manage complex state logic in functional components",
+          "To perform side effects",
+          "To manage local component state",
+          "To create a new context",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "The 'useReducer' hook is used to manage complex state logic in functional components, similar to Redux.",
+      },
+    ],
+    createdAt: "2023-02-01T00:00:00.000Z",
+    updatedAt: "2023-02-01T00:00:00.000Z",
+    popularity: 90,
+    completions: 1200,
+  },
   //! /*--------------------------------------- quiz six--------------------------------------------- */
+  {
+    id: "6",
+    title: "Python Intermediate Quiz",
+    description:
+      "Test your knowledge of React.js fundamentals and core concepts.",
+    category: "Programming",
+    difficulty: "Intermediate",
+    timeEstimate: "20 min",
+    time: 20,
+    questions: [
+      {
+        id: "4-1",
+        type: "multiple-choice",
+        question: "What is React?",
+        options: [
+          "A programming language",
+          "A database management system",
+          "A JavaScript library for building user interfaces",
+
+          "A framework for server-side development",
+        ],
+        correctAnswer: "2",
+        explanation:
+          "React is a JavaScript library for building user interfaces, primarily for single-page applications.",
+      },
+      {
+        id: "4-2",
+        type: "multiple-choice",
+        question:
+          "What is the purpose of the 'render' method in a React component?",
+        options: [
+          "To return the JSX that defines the UI",
+          "To handle events",
+          "To update the component's state",
+          "To fetch data from an API",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "The 'render' method is used to return the JSX that defines the UI of the component.",
+      },
+      {
+        id: "4-3",
+        type: "multiple-choice",
+        question:
+          "Which of the following is used to manage state in a functional component?",
+        options: ["this.state", "setState", "useState", "state"],
+        correctAnswer: "2",
+        explanation:
+          "The 'useState' hook is used to manage state in functional components.",
+      },
+      {
+        id: "4-4",
+        type: "multiple-choice",
+        question: "What is JSX?",
+        options: [
+          "A syntax extension for JavaScript",
+          "A type of CSS",
+          "A database query language",
+          "A JavaScript framework",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript.",
+      },
+      {
+        id: "4-5",
+        type: "multiple-choice",
+        question:
+          "How do you pass data from a parent component to a child component in React?",
+        options: ["Using state", "Using props", "Using context", "Using hooks"],
+        correctAnswer: "1",
+        explanation:
+          "Data is passed from a parent component to a child component using props.",
+      },
+      {
+        id: "4-6",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'key' prop in React?",
+        options: [
+          "To manage state",
+          "To uniquely identify elements in a list",
+          "To handle events",
+          "To style components",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "The 'key' prop is used to uniquely identify elements in a list, helping React optimize rendering.",
+      },
+      {
+        id: "4-7",
+        type: "multiple-choice",
+        question:
+          "Which lifecycle method is called after a component is mounted?",
+        options: [
+          "componentDidUpdate",
+          "componentWillMount",
+          "componentDidMount",
+          "componentWillUpdate",
+        ],
+        correctAnswer: "2",
+        explanation:
+          "The 'componentDidMount' lifecycle method is called after a component is mounted.",
+      },
+      {
+        id: "4-8",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'useEffect' hook?",
+        options: [
+          "To perform side effects in functional components",
+          "To manage state",
+          "To handle events",
+          "To render components",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "The 'useEffect' hook is used to perform side effects in functional components, such as data fetching or subscriptions.",
+      },
+      {
+        id: "4-9",
+        type: "multiple-choice",
+        question: "What does the 'setState' method do?",
+        options: [
+          "Renders the component",
+          "Updates the component's state",
+          "Creates a new component",
+          "Fetches data from an API",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "'setState' is used to update the component's state and trigger a re-render.",
+      },
+      {
+        id: "4-10",
+        type: "multiple-choice",
+        question:
+          "Which of the following is a valid way to create a functional component in React?",
+        options: [
+          "const MyComponent = () => { return <div>Hello</div>, }",
+          "function MyComponent() { return <div>Hello</div>; }",
+          "const MyComponent = function() { return <div>Hello</div>; }",
+          "All of the above",
+        ],
+        correctAnswer: "3",
+        explanation:
+          "All of the provided options are valid ways to create a functional component in React.",
+      },
+      {
+        id: "4-11",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'useContext' hook?",
+        options: [
+          "To manage local component state",
+          "To access context values in functional components",
+          "To perform side effects",
+          "To create a new context",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "The 'useContext' hook is used to access context values in functional components.",
+      },
+      {
+        id: "4-12",
+        type: "multiple-choice",
+        question: "Which of the following is true about controlled components?",
+        options: [
+          "Their state is managed by the DOM",
+          "Their state is managed by React",
+          "They cannot be used with forms",
+          "They are always functional components",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "Controlled components are those whose state is managed by React, typically through props.",
+      },
+      {
+        id: "4-13",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'Fragment' component in React?",
+        options: [
+          "To create a new context",
+          "To group multiple elements without adding extra nodes to the DOM",
+          "To manage state",
+          "To handle events",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "The 'Fragment' component is used to group multiple elements without adding extra nodes to the DOM.",
+      },
+      {
+        id: "4-14",
+        type: "multiple-choice",
+        question: "Which of the following is a way to handle events in React?",
+        options: [
+          "Using event listeners directly on DOM elements",
+          "Using the 'onClick' prop",
+          "Using jQuery",
+
+          "Using the 'addEventListener' method",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "In React, events are handled using props like 'onClick' directly on the JSX elements.",
+      },
+      {
+        id: "4-15",
+        type: "multiple-choice",
+        question: "What is the purpose of the 'useReducer' hook?",
+        options: [
+          "To manage complex state logic in functional components",
+          "To perform side effects",
+          "To manage local component state",
+          "To create a new context",
+        ],
+        correctAnswer: "0",
+        explanation:
+          "The 'useReducer' hook is used to manage complex state logic in functional components, similar to Redux.",
+      },
+    ],
+    createdAt: "2023-02-01T00:00:00.000Z",
+    updatedAt: "2023-02-01T00:00:00.000Z",
+    popularity: 90,
+    completions: 1200,
+  },
   //! /*--------------------------------------- quiz seven--------------------------------------------- */
   //! /*--------------------------------------- quiz eight--------------------------------------------- */
   //! /*--------------------------------------- quiz nine--------------------------------------------- */

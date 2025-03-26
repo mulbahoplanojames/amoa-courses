@@ -610,7 +610,7 @@
     "instructor": {
       "name": "Abdallah Aleer",
       "title": "Python Lead Developer",
-      "bio": "Michael created Python-based solutions for NASA's data analysis systems",
+      "bio": "A Software Engineer who began his programming journey with Python",
       "avatar": "/team/abdo.jpeg"
     },
     "price": "Free",
@@ -619,12 +619,33 @@
       {
         "id": 1,
         "title": "Introduction to Python",
-        "description": "Master Python syntax and programming paradigms",
+        "description": "In this introduction, we'll explore what Python is, when it was created, and its key features.",
         "duration": "4 hours",
         "lessons": [
           {
             "id": 1,
-            "title": "Python Data Structures",
+            "title": "Overview",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 2,
+            "title": "What's Python",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 3,
+            "title": "Installation",
+            "type": "video",
+            "duration": "25 min",
+            "isCompleted": false
+          },
+          {
+            "id": 4,
+            "title": "Our first Python Program",
             "type": "video",
             "duration": "25 min",
             "isCompleted": false
@@ -634,7 +655,7 @@
       {
         "id": 2,
         "title": "Basic Concepts of Python",
-        "description": "Build web applications using Django framework",
+        "description": "We'll cover the fundamental concepts of Python, including its syntax, key features, and core principles.",
         "duration": "6 hours",
         "lessons": [
           {
@@ -698,9 +719,23 @@
       {
         "id": 2,
         "title": "Intermediate Concepts of Python",
-        "description": "Build web applications using Django framework",
+        "description": "We’ll explore more intermediate topics such as object-oriented programming (OOP), error handling, file handling, and working with libraries and modules.",
         "duration": "6 hours",
         "lessons": [
+          {
+            "id": 4,
+            "title": "List Comprehension",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 4,
+            "title": "Dictionary Comprehension",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
           {
             "id": 4,
             "title": "Lambda Functions",
@@ -724,42 +759,42 @@
           },
           {
             "id": 5,
-            "title": "Object-Oriented Programming (OOP) in Python",
+            "title": "Working with Files",
             "type": "interactive",
             "duration": "1.5 hours",
             "isCompleted": false
           },
           {
             "id": 6,
-            "title": "Context Managers and `with` Statement",
-            "type": "interactive",
-            "duration": "1.8 hours",
-            "isCompleted": false
-          },
-          {
-            "id": 7,
-            "title": "Context Managers and `with` Statement 1",
+            "title": "Object-Oriented Programming (OOP) in Python",
             "type": "interactive",
             "duration": "1.8 hours",
             "isCompleted": false
           },
           {
             "id": 8,
-            "title": "Context Managers and `with` Statement 2",
+            "title": "Modules and Packages",
             "type": "interactive",
             "duration": "1.8 hours",
             "isCompleted": false
           },
           {
             "id": 9,
-            "title": "Context Managers and `with` Statement 3",
+            "title": "Introduction to type Annotations",
             "type": "interactive",
             "duration": "1.8 hours",
             "isCompleted": false
           },
           {
             "id": 10,
-            "title": "Context Managers and `with` Statement 4",
+            "title": "Iterators",
+            "type": "interactive",
+            "duration": "1.8 hours",
+            "isCompleted": false
+          },
+          {
+            "id": 10,
+            "title": "Generators",
             "type": "interactive",
             "duration": "1.8 hours",
             "isCompleted": false
@@ -769,42 +804,28 @@
       {
         "id": 2,
         "title": "Advanced Concepts of Python",
-        "description": "Build web applications using Django framework",
+        "description": "We’ll cover more advanced topics like multithreading, asynchronous programming, and working with Python’s powerful libraries and frameworks.",
         "duration": "6 hours",
         "lessons": [
           {
             "id": 4,
-            "title": "Decorators",
+            "title": "Meta Programming",
             "type": "interactive",
             "duration": "45 min",
             "isCompleted": false
           },
           {
             "id": 5,
-            "title": "Iterators and Generators",
+            "title": "Context Managers",
             "type": "text",
             "duration": "30 min",
             "isCompleted": false
           },
           {
             "id": 6,
-            "title": "Django ORM Basics",
+            "title": "Custom Exceptions",
             "type": "video",
             "duration": "35 min",
-            "isCompleted": false
-          },
-          {
-            "id": 7,
-            "title": "Building REST APIs",
-            "type": "interactive",
-            "duration": "1.5 hours",
-            "isCompleted": false
-          },
-          {
-            "id": 8,
-            "title": "Authentication Systems",
-            "type": "text",
-            "duration": "25 min",
             "isCompleted": false
           }
         ]
@@ -819,18 +840,23 @@
       },
       {
         "id": 2,
-        "title": "Django Fundamentals Quiz",
+        "title": "Python Intermediate Quiz",
+        "questions": 10,
+        "duration": "15 minutes"
+      },
+      {
+        "id": 3,
+        "title": "Python Advanced Quiz",
         "questions": 10,
         "duration": "15 minutes"
       }
     ],
     "prerequisites": [
-      "Basic programming concepts",
-      "Understanding of algorithms"
+      "A motivated learner with a passion for programming.",
+      "Dedicated to learning and advancing programming skills."
     ],
     "whatYouWillLearn": [
       "Write clean Pythonic code",
-      "Develop web applications with Django",
       "Work with SQL databases",
       "Create RESTful APIs",
       "Implement unit testing"
