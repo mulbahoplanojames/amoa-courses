@@ -833,19 +833,19 @@
     ],
     "quizzes": [
       {
-        "id": 1,
+        "id": 5,
         "title": "Python Basics Quiz",
         "questions": 15,
         "duration": "20 minutes"
       },
       {
-        "id": 2,
+        "id": 6,
         "title": "Python Intermediate Quiz",
         "questions": 10,
         "duration": "15 minutes"
       },
       {
-        "id": 3,
+        "id": 7,
         "title": "Python Advanced Quiz",
         "questions": 10,
         "duration": "15 minutes"

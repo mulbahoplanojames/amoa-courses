@@ -776,7 +776,7 @@ export const quizzes: Quiz[] = [
     id: "5",
     title: "Python Basics Quiz",
     description:
-      "Test your knowledge of React.js fundamentals and core concepts.",
+      "Test your knowledge of Python fundamentals and core concepts.",
     category: "Programming",
     difficulty: "Beginner",
     timeEstimate: "20 min",
@@ -785,78 +785,73 @@ export const quizzes: Quiz[] = [
       {
         id: "4-1",
         type: "multiple-choice",
-        question: "What is React?",
+        question: "What is Python?",
         options: [
-          "A programming language",
-          "A database management system",
-          "A JavaScript library for building user interfaces",
-
-          "A framework for server-side development",
+          "A type of snake",
+          "A high-level programming language",
+          "A web browser",
+          "A type of database",
         ],
-        correctAnswer: "2",
+        correctAnswer: "1",
         explanation:
-          "React is a JavaScript library for building user interfaces, primarily for single-page applications.",
+          "Python is a high-level programming language, used extensively in AI/ML and web development",
       },
       {
         id: "4-2",
         type: "multiple-choice",
-        question:
-          "What is the purpose of the 'render' method in a React component?",
-        options: [
-          "To return the JSX that defines the UI",
-          "To handle events",
-          "To update the component's state",
-          "To fetch data from an API",
-        ],
+        question: "When was Python first created?",
+        options: ["1991", "1989", "2000", "1995"],
         correctAnswer: "0",
-        explanation:
-          "The 'render' method is used to return the JSX that defines the UI of the component.",
+        explanation: "Python was created in 1991 by Guido Van Rossum",
       },
       {
         id: "4-3",
         type: "multiple-choice",
-        question:
-          "Which of the following is used to manage state in a functional component?",
-        options: ["this.state", "setState", "useState", "state"],
-        correctAnswer: "2",
+        question: "Who created Python?",
+        options: [
+          "Mark Zuckerberg",
+          "Guido van Rossum",
+          "Dennis Ritchie",
+          "James Gosling",
+        ],
+        correctAnswer: "1",
         explanation:
-          "The 'useState' hook is used to manage state in functional components.",
+          "Python was created by Denish Computer Scientist called Guido Van Rossum",
       },
       {
         id: "4-4",
         type: "multiple-choice",
-        question: "What is JSX?",
+        question:
+          "What was Python’s primary purpose when it was first created?",
         options: [
-          "A syntax extension for JavaScript",
-          "A type of CSS",
-          "A database query language",
-          "A JavaScript framework",
+          "Web development",
+          "Data science",
+          "Automation and scripting",
+          "Game development",
         ],
-        correctAnswer: "0",
+        correctAnswer: "2",
         explanation:
           "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript.",
       },
       {
         id: "4-5",
         type: "multiple-choice",
-        question:
-          "How do you pass data from a parent component to a child component in React?",
-        options: ["Using state", "Using props", "Using context", "Using hooks"],
+        question: "What are the key principles behind Python’s design?",
+        options: [
+          "Fast and complex",
+          "Simple, readable, and explicit",
+          "Low-level and close to hardware",
+          "Fast execution and multi-threading",
+        ],
         correctAnswer: "1",
-        explanation:
-          "Data is passed from a parent component to a child component using props.",
+        explanation: "Python design philosophy are simplicity, readability",
       },
       {
         id: "4-6",
         type: "multiple-choice",
-        question: "What is the purpose of the 'key' prop in React?",
-        options: [
-          "To manage state",
-          "To uniquely identify elements in a list",
-          "To handle events",
-          "To style components",
-        ],
-        correctAnswer: "1",
+        question: "Which of the following is NOT a valid data type in Python?",
+        options: ["int", "string", "boolean", "decimal"],
+        correctAnswer: "3",
         explanation:
           "The 'key' prop is used to uniquely identify elements in a list, helping React optimize rendering.",
       },
@@ -864,128 +859,108 @@ export const quizzes: Quiz[] = [
         id: "4-7",
         type: "multiple-choice",
         question:
-          "Which lifecycle method is called after a component is mounted?",
-        options: [
-          "componentDidUpdate",
-          "componentWillMount",
-          "componentDidMount",
-          "componentWillUpdate",
-        ],
-        correctAnswer: "2",
+          "What is the default data type for a number in Python if no decimal point is specified?",
+        options: ["float", "int", "complex", "double"],
+        correctAnswer: "1",
         explanation:
-          "The 'componentDidMount' lifecycle method is called after a component is mounted.",
+          "The default data type for a number in Python if no decimal point is specified is int",
       },
       {
         id: "4-8",
         type: "multiple-choice",
-        question: "What is the purpose of the 'useEffect' hook?",
-        options: [
-          "To perform side effects in functional components",
-          "To manage state",
-          "To handle events",
-          "To render components",
-        ],
-        correctAnswer: "0",
+        question: "How do you define a variable in Python?",
+        options: ["var x = 10", "int x = 10", "x = 10", "variable x = 10"],
+        correctAnswer: "2",
         explanation:
           "The 'useEffect' hook is used to perform side effects in functional components, such as data fetching or subscriptions.",
       },
       {
         id: "4-9",
         type: "multiple-choice",
-        question: "What does the 'setState' method do?",
+        question: "What is the purpose of the `type()` function in Python?",
         options: [
-          "Renders the component",
-          "Updates the component's state",
-          "Creates a new component",
-          "Fetches data from an API",
+          "To find the data type of a variable",
+          "To define a new data type ",
+          "To convert one data type to another",
+          "To perform mathematical operations",
         ],
-        correctAnswer: "1",
+        correctAnswer: "0",
         explanation:
-          "'setState' is used to update the component's state and trigger a re-render.",
+          "type() is a built-in function in python that returns the type of an object",
       },
       {
         id: "4-10",
         type: "multiple-choice",
-        question:
-          "Which of the following is a valid way to create a functional component in React?",
+        question: "What is the purpose of the `**` operator in Python?",
         options: [
-          "const MyComponent = () => { return <div>Hello</div>, }",
-          "function MyComponent() { return <div>Hello</div>; }",
-          "const MyComponent = function() { return <div>Hello</div>; }",
-          "All of the above",
+          "Division",
+          "Exponentiation (power)",
+          "Floor division",
+          "Modulo",
         ],
-        correctAnswer: "3",
+        correctAnswer: "1",
         explanation:
-          "All of the provided options are valid ways to create a functional component in React.",
+          "As in many other other programming languages ** operator also symbolzies Exponentiation",
       },
       {
         id: "4-11",
         type: "multiple-choice",
-        question: "What is the purpose of the 'useContext' hook?",
-        options: [
-          "To manage local component state",
-          "To access context values in functional components",
-          "To perform side effects",
-          "To create a new context",
-        ],
-        correctAnswer: "1",
+        question:
+          "Which of the following is the correct syntax for a logical AND operation in Python?",
+        options: ["AND(x, y) ", "x && y", "x and y", "x || y"],
+        correctAnswer: "2",
         explanation:
-          "The 'useContext' hook is used to access context values in functional components.",
+          "Python created with simplicity in mind uses 'and' instead of && in other programming languages ",
       },
       {
         id: "4-12",
         type: "multiple-choice",
-        question: "Which of the following is true about controlled components?",
+        question: "What does the `%` operator do in Python?",
         options: [
-          "Their state is managed by the DOM",
-          "Their state is managed by React",
-          "They cannot be used with forms",
-          "They are always functional components",
+          "Returns the quotient",
+          "Returns the result of division",
+          "Returns the remainder after division",
+          "Raises a number to a power",
         ],
-        correctAnswer: "1",
-        explanation:
-          "Controlled components are those whose state is managed by React, typically through props.",
+        correctAnswer: "2",
+        explanation: "'%' operator returns the remainder after division",
       },
       {
         id: "4-13",
         type: "multiple-choice",
-        question: "What is the purpose of the 'Fragment' component in React?",
+        question:
+          "Which of the following is the correct way to write an `if` statement in Python?",
         options: [
-          "To create a new context",
-          "To group multiple elements without adding extra nodes to the DOM",
-          "To manage state",
-          "To handle events",
+          "if x > 5:",
+          "if x > 5 then:",
+          "if x > 5 do:",
+          "if x > 5 end:",
         ],
-        correctAnswer: "1",
+        correctAnswer: "0",
         explanation:
           "The 'Fragment' component is used to group multiple elements without adding extra nodes to the DOM.",
       },
       {
         id: "4-14",
         type: "multiple-choice",
-        question: "Which of the following is a way to handle events in React?",
+        question:
+          "How would you write a `while` loop in Python that runs as long as a variable `x` is less than 10?",
         options: [
-          "Using event listeners directly on DOM elements",
-          "Using the 'onClick' prop",
-          "Using jQuery",
-
-          "Using the 'addEventListener' method",
+          "while x < 10 do:",
+          "while (x < 10):",
+          "while x < 10:",
+          "while x < 10 end:",
         ],
-        correctAnswer: "1",
+        correctAnswer: "2",
         explanation:
           "In React, events are handled using props like 'onClick' directly on the JSX elements.",
       },
       {
         id: "4-15",
         type: "multiple-choice",
-        question: "What is the purpose of the 'useReducer' hook?",
-        options: [
-          "To manage complex state logic in functional components",
-          "To perform side effects",
-          "To manage local component state",
-          "To create a new context",
-        ],
-        correctAnswer: "0",
+        question: "How do you exit a loop early in Python?",
+        options: ["exit() ", "stop()", "break ", "quit()"],
+        correctAnswer: "2",
         explanation:
           "The 'useReducer' hook is used to manage complex state logic in functional components, similar to Redux.",
       },
@@ -1010,209 +985,82 @@ export const quizzes: Quiz[] = [
       {
         id: "4-1",
         type: "multiple-choice",
-        question: "What is React?",
+        question:
+          "Which of the following will create a dictionary from two lists, keys and values?",
         options: [
-          "A programming language",
-          "A database management system",
-          "A JavaScript library for building user interfaces",
-
-          "A framework for server-side development",
+          "dict_comprehension = {k: v for k, v in zip(keys, values)}",
+          "dict_comprehension = {k: v for k in keys}",
+          "dict_comprehension = {v: k for k, v in zip(keys, values)}",
+          "dict_comprehension = [k: v for k, v in zip(keys, values)]",
         ],
-        correctAnswer: "2",
+        correctAnswer: "0",
         explanation:
-          "React is a JavaScript library for building user interfaces, primarily for single-page applications.",
+          "This creates a dictionary by pairing keys and values using zip(keys, values) inside the dictionary comprehension.",
       },
       {
         id: "4-2",
         type: "multiple-choice",
         question:
-          "What is the purpose of the 'render' method in a React component?",
+          "Which of the following is the correct way to use a decorator in Python?",
         options: [
-          "To return the JSX that defines the UI",
-          "To handle events",
-          "To update the component's state",
-          "To fetch data from an API",
+          "@decorator(func)",
+          "@decorator(func):",
+          "func@decorator",
+          "func(decorator)",
         ],
         correctAnswer: "0",
         explanation:
-          "The 'render' method is used to return the JSX that defines the UI of the component.",
+          "The @decorator(func) syntax is used to apply a decorator to a function in Python.",
       },
+
       {
         id: "4-3",
         type: "multiple-choice",
         question:
-          "Which of the following is used to manage state in a functional component?",
-        options: ["this.state", "setState", "useState", "state"],
-        correctAnswer: "2",
+          "Which of the following is used to define a constructor in a Python class?",
+        options: ["__new__()", "__init__()", "constructor()", "__call__()"],
+        correctAnswer: "1",
         explanation:
-          "The 'useState' hook is used to manage state in functional components.",
+          "In Python, the __init__() method is used as the constructor to initialize an object’s attributes when it is created.",
       },
       {
         id: "4-4",
         type: "multiple-choice",
-        question: "What is JSX?",
+        question:
+          "How do you import a specific function my_function from a module my_module?",
         options: [
-          "A syntax extension for JavaScript",
-          "A type of CSS",
-          "A database query language",
-          "A JavaScript framework",
+          "import my_function from my_module",
+          "from my_module import my_function",
+          "import my_module.my_function",
+          "import my_function",
         ],
-        correctAnswer: "0",
+        correctAnswer: "1",
         explanation:
-          "JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript.",
+          "To import a specific function from a module, you use the syntax from module_name import function_name.",
       },
       {
         id: "4-5",
         type: "multiple-choice",
         question:
-          "How do you pass data from a parent component to a child component in React?",
-        options: ["Using state", "Using props", "Using context", "Using hooks"],
-        correctAnswer: "1",
+          "Which of the following is the correct type annotation for a function that takes a string and returns an integer?",
+        options: [
+          "def my_function(name: str) -> int:",
+          "def my_function(name: int) -> str:",
+          "def my_function(name) -> str:",
+          "def my_function(name: string) -> int:",
+        ],
+        correctAnswer: "0",
         explanation:
-          "Data is passed from a parent component to a child component using props.",
+          "The correct type annotation for a function that takes a str and returns an int is name: str for the argument and -> int for the return type.",
       },
       {
         id: "4-6",
         type: "multiple-choice",
-        question: "What is the purpose of the 'key' prop in React?",
-        options: [
-          "To manage state",
-          "To uniquely identify elements in a list",
-          "To handle events",
-          "To style components",
-        ],
-        correctAnswer: "1",
-        explanation:
-          "The 'key' prop is used to uniquely identify elements in a list, helping React optimize rendering.",
-      },
-      {
-        id: "4-7",
-        type: "multiple-choice",
-        question:
-          "Which lifecycle method is called after a component is mounted?",
-        options: [
-          "componentDidUpdate",
-          "componentWillMount",
-          "componentDidMount",
-          "componentWillUpdate",
-        ],
-        correctAnswer: "2",
-        explanation:
-          "The 'componentDidMount' lifecycle method is called after a component is mounted.",
-      },
-      {
-        id: "4-8",
-        type: "multiple-choice",
-        question: "What is the purpose of the 'useEffect' hook?",
-        options: [
-          "To perform side effects in functional components",
-          "To manage state",
-          "To handle events",
-          "To render components",
-        ],
-        correctAnswer: "0",
-        explanation:
-          "The 'useEffect' hook is used to perform side effects in functional components, such as data fetching or subscriptions.",
-      },
-      {
-        id: "4-9",
-        type: "multiple-choice",
-        question: "What does the 'setState' method do?",
-        options: [
-          "Renders the component",
-          "Updates the component's state",
-          "Creates a new component",
-          "Fetches data from an API",
-        ],
-        correctAnswer: "1",
-        explanation:
-          "'setState' is used to update the component's state and trigger a re-render.",
-      },
-      {
-        id: "4-10",
-        type: "multiple-choice",
-        question:
-          "Which of the following is a valid way to create a functional component in React?",
-        options: [
-          "const MyComponent = () => { return <div>Hello</div>, }",
-          "function MyComponent() { return <div>Hello</div>; }",
-          "const MyComponent = function() { return <div>Hello</div>; }",
-          "All of the above",
-        ],
+        question: "Which of the following is an iterator?",
+        options: ["A list", "A set", "A dictionary", "A generator"],
         correctAnswer: "3",
         explanation:
-          "All of the provided options are valid ways to create a functional component in React.",
-      },
-      {
-        id: "4-11",
-        type: "multiple-choice",
-        question: "What is the purpose of the 'useContext' hook?",
-        options: [
-          "To manage local component state",
-          "To access context values in functional components",
-          "To perform side effects",
-          "To create a new context",
-        ],
-        correctAnswer: "1",
-        explanation:
-          "The 'useContext' hook is used to access context values in functional components.",
-      },
-      {
-        id: "4-12",
-        type: "multiple-choice",
-        question: "Which of the following is true about controlled components?",
-        options: [
-          "Their state is managed by the DOM",
-          "Their state is managed by React",
-          "They cannot be used with forms",
-          "They are always functional components",
-        ],
-        correctAnswer: "1",
-        explanation:
-          "Controlled components are those whose state is managed by React, typically through props.",
-      },
-      {
-        id: "4-13",
-        type: "multiple-choice",
-        question: "What is the purpose of the 'Fragment' component in React?",
-        options: [
-          "To create a new context",
-          "To group multiple elements without adding extra nodes to the DOM",
-          "To manage state",
-          "To handle events",
-        ],
-        correctAnswer: "1",
-        explanation:
-          "The 'Fragment' component is used to group multiple elements without adding extra nodes to the DOM.",
-      },
-      {
-        id: "4-14",
-        type: "multiple-choice",
-        question: "Which of the following is a way to handle events in React?",
-        options: [
-          "Using event listeners directly on DOM elements",
-          "Using the 'onClick' prop",
-          "Using jQuery",
-
-          "Using the 'addEventListener' method",
-        ],
-        correctAnswer: "1",
-        explanation:
-          "In React, events are handled using props like 'onClick' directly on the JSX elements.",
-      },
-      {
-        id: "4-15",
-        type: "multiple-choice",
-        question: "What is the purpose of the 'useReducer' hook?",
-        options: [
-          "To manage complex state logic in functional components",
-          "To perform side effects",
-          "To manage local component state",
-          "To create a new context",
-        ],
-        correctAnswer: "0",
-        explanation:
-          "The 'useReducer' hook is used to manage complex state logic in functional components, similar to Redux.",
+          "A generator is an iterator in Python because it yields items one at a time and supports the next() function to retrieve the next item.",
       },
     ],
     createdAt: "2023-02-01T00:00:00.000Z",
@@ -1221,6 +1069,37 @@ export const quizzes: Quiz[] = [
     completions: 1200,
   },
   //! /*--------------------------------------- quiz seven--------------------------------------------- */
+  {
+    id: "7",
+    title: "Python Advanced Quiz",
+    description:
+      "Test your knowledge of React.js fundamentals and core concepts.",
+    category: "Programming",
+    difficulty: "Advanced",
+    timeEstimate: "20 min",
+    time: 20,
+    questions: [
+      {
+        id: "4-1",
+        type: "multiple-choice",
+        question:
+          "Which method must be implemented to make a class usable as a context manager?",
+        options: [
+          "__start__()",
+          "__enter__() and __exit__()",
+          "__open__() and __close__()",
+          "__init__() and __finalize__()",
+        ],
+        correctAnswer: "1",
+        explanation:
+          "For a class to be used as a context manager, it must implement two methods: __enter__() (executed when entering the context) and __exit__() (executed when exiting the context).",
+      },
+    ],
+    createdAt: "2023-02-01T00:00:00.000Z",
+    updatedAt: "2023-02-01T00:00:00.000Z",
+    popularity: 90,
+    completions: 1200,
+  },
   //! /*--------------------------------------- quiz eight--------------------------------------------- */
   //! /*--------------------------------------- quiz nine--------------------------------------------- */
   //! /*--------------------------------------- quiz ten--------------------------------------------- */
