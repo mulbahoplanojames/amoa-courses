@@ -3,12 +3,12 @@ import { AwardIcon, BookIcon, CodeIcon, UsersIcon } from "lucide-react";
 const stats = [
   {
     icon: <UsersIcon className="h-8 w-8 mx-auto text-primary" />,
-    value: "10,000+",
+    value: "50+",
     label: "Active Learners",
   },
   {
     icon: <BookIcon className="h-8 w-8 mx-auto text-primary" />,
-    value: "500+",
+    value: "70+",
     label: "Quizzes Available",
   },
   {
@@ -18,7 +18,7 @@ const stats = [
   },
   {
     icon: <AwardIcon className="h-8 w-8 mx-auto text-primary" />,
-    value: "25+",
+    value: "15+",
     label: "Categories",
   },
 ];
