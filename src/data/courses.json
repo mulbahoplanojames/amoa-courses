@@ -20,7 +20,7 @@
       "avatar": "/team/solo.jpeg"
     },
     "price": "$20.00",
-    "docs": "https://nextra.site/docs/docs-theme/start",
+    "docs": "#",
     "modules": [
       {
         "id": 1,
@@ -280,7 +280,7 @@
       "avatar": "/team/abdo.jpeg"
     },
     "price": "$20.00",
-    "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "docs": "#",
     "modules": [
       {
         "id": 1,
@@ -614,7 +614,7 @@
       "avatar": "/team/abdo.jpeg"
     },
     "price": "Free",
-    "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "docs": "#",
     "modules": [
       {
         "id": 1,
@@ -884,7 +884,7 @@
       "avatar": "/team/solo.jpeg"
     },
     "price": "$20.00",
-    "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "docs": "#",
     "modules": [
       {
         "id": 1,
@@ -993,7 +993,7 @@
       "avatar": "/team/oplano.jpeg"
     },
     "price": "$20.00",
-    "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "docs": "#",
     "modules": [
       {
         "id": 1,
@@ -1203,7 +1203,7 @@
       "avatar": "/team/oplano.jpeg"
     },
     "price": "$20.00",
-    "docs": "https://starlight.astro.build/guides/pages/",
+    "docs": "#",
     "modules": [
       {
         "id": 1,
