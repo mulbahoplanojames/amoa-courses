@@ -1,0 +1,3 @@
+{
+  "/(public)/quizzes/page": "app/(public)/quizzes/page.js"
+}
