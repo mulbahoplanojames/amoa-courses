@@ -1,10 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import { Card, CardContent } from "../ui/card";
-import { LinkedinIcon, TwitterIcon } from "lucide-react";
+import { LinkedinIcon, TwitterIcon, MessageCircle } from "lucide-react";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { FaWhatsapp } from "react-icons/fa";
 
 const team = [
   {
@@ -16,7 +15,7 @@ const team = [
       {
         name: "Whatsapp",
         link: "https://wa.me/250791676207",
-        icon: <FaWhatsapp />,
+        icon: <MessageCircle />,
       },
       {
         name: "Linkedin",
@@ -39,7 +38,7 @@ const team = [
       {
         name: "Whatsapp",
         link: "https://wa.me/250792574452",
-        icon: <FaWhatsapp />,
+        icon: <MessageCircle />,
       },
       {
         name: "Linkedin",
@@ -62,7 +61,7 @@ const team = [
       {
         name: "Whatsapp",
         link: "https://wa.me/250796136584",
-        icon: <FaWhatsapp />,
+        icon: <MessageCircle />,
       },
       {
         name: "Linkedin",
