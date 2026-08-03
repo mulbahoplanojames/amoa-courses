@@ -1,16 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/api/survey/route": "app/api/survey/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(public)/about/page": "app/(public)/about/page.js",
   "/(public)/courses/page": "app/(public)/courses/page.js",
   "/(public)/page": "app/(public)/page.js",
-  "/(public)/quiz/[id]/page": "app/(public)/quiz/[id]/page.js",
-  "/(public)/quiz/[id]/results/page": "app/(public)/quiz/[id]/results/page.js",
-  "/(public)/courses/[slug]/page": "app/(public)/courses/[slug]/page.js",
-  "/(public)/courses/survey/page": "app/(public)/courses/survey/page.js",
   "/(public)/quizzes/page": "app/(public)/quizzes/page.js",
-  "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/(auth)/signup/page": "app/(auth)/signup/page.js",
-  "/(public)/about/page": "app/(public)/about/page.js"
+  "/_not-found/page": "app/_not-found/page.js"
 }
